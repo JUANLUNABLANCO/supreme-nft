@@ -1,0 +1,33 @@
+/* ********** c-buttons ***/
+.c-button {
+	cursor: pointer;
+	display: inline-block;
+	padding: 16px 32px;
+	vertical-align: top;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background: var(--reverse-link-color);
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.c-button:hover {
+	border-color: var(--link-color);
+	background-color: transparent;
+	color: #fff;
+}
+.c-button:focus {
+	text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+	.c-button {
+		background: var(--link-color);
+	}
+}

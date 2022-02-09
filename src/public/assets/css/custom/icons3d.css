@@ -1,0 +1,30 @@
+/* ********** icons3d  thumbnails  */
+.thumbnail100 {
+	width: 100px;
+	height: auto;
+}
+.thumbnail150 {
+	width: 150px;
+	height: auto;
+}
+.thumbnail200 {
+	width: 200px;
+	height: auto;
+}
+.thumbnail250 {
+	width: 250px;
+	height: auto;
+}
+.thumbnail300 {
+	width: 300px;
+	height: auto;
+}
+.thumbnail100 img,
+.thumbnail150 img,
+.thumbnail200 img,
+.thumbnail250 img,
+.thumbnail300 img {
+	max-width: 100%;
+	height: auto;
+	margin: 1rem;
+}

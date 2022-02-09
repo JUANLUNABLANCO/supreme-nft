@@ -1,0 +1,53 @@
+/* ********** cards *****/
+.heading-cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+.heading-card {
+	margin: 0.5rem auto;
+	padding: 1rem;
+	width: 100%;
+	height: 100%;
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.heading-card > svg {
+	width: 2rem;
+	height: 2rem;
+	fill: var(--first-color);
+}
+.heading-card > small {
+	margin-top: -1rem;
+}
+/* .heading-card_head {
+	flex: 1;
+} */
+.heading-card_body {
+	flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+	.heading-cards {
+		display: grid;
+		grid-template-columns: repeat(1, 75%);
+		justify-content: space-around;
+	}
+	.heading-card {
+		text-align: left;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.heading-cards {
+		grid-template-columns: repeat(3, 26%);
+	}
+	.heading-card {
+		text-align: left;
+		padding: 0;
+	}
+	.heading-card_foot {
+		text-align: right !important;
+	}
+}

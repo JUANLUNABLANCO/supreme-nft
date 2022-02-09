@@ -1,0 +1,17 @@
+{
+	"name": "nftsupremeweb",
+	"version": "1.0.0",
+	"description": "web with only html5 css y js vanilla",
+	"main": "index.js",
+	"scripts": {
+		"nodeDev": "nodemon ./src/server.js",
+		"nodeProd": "pm2 start ./src/server.js"
+	},
+	"author": "JuanLuna",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^14.3.2",
+		"express": "^4.17.2",
+		"nodemon": "^2.0.15"
+	}
+}
