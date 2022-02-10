@@ -31,9 +31,9 @@
 .jumbotron-content:nth-child(1) {
 	z-index: 750; /*calc(var(--zindex-card-top)+ 50);*/
 }
-.jumbotron-content:nth-child(2) {
+/* .jumbotron-content:nth-child(2) {
 	/* bottom: 20vh; */
-}
+} */
 .jumbotrom-logo {
 	min-width: 100%;
 }
@@ -72,17 +72,6 @@
 .jumbotron-subtitle span {
 	color: var(--third-color);
 	/* var(--emphasis-color); */
-}
-.jumbotron-card {
-	max-width: 600px;
-}
-.neon {
-	/* efecto neon  */
-	-webkit-text-stroke: 2px var(--text-purpledark-color);
-	color: transparent;
-	text-shadow: 0 0 5px rgb(255, 0, 234), 0 0 10px rgb(204, 39, 168), 0 0 20px rgb(231, 102, 199),
-		0 0 40px rgb(221, 53, 171), 0 0 80px rgb(231, 81, 206), 0 0 90px rgb(127, 38, 123), 0 0 100px rgb(127, 38, 120),
-		0 0 140px rgb(127, 38, 112), 0 0 180px rgb(127, 38, 108);
 }
 
 @media screen and (min-width: 1200px) {
@@ -124,6 +113,19 @@
 	.jumbotron-subtitle {
 		font-size: 19.5px;
 		color: var(--subtitle-color);
+	}
+	.jumbotron-card {
+		max-width: 600px;
+	}
+	.jumbotron-card-footer {
+		width: 100%;
+		border: 1px solid yellow;
+		margin-top:50px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		/* text-align: center; */
 	}
 }
 /* ********** HeroImage ********** */

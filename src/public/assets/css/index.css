@@ -15,8 +15,7 @@
 @import url('./custom/sitestyle.css');
 @import url('./custom/rrss-button.css');
 @import url('./custom/roadmap.css');
-
-/* ********** Components ***** */
+@import url('./custom/neon.css'); /* ********** Components ***** */
 /* **************************************************************************** */
 /*
     ### tutorial

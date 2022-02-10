@@ -1,0 +1,90 @@
+.neon {
+	/* efecto neon  */
+	-webkit-text-stroke: 2px var(--text-purpledark-color);
+	color: transparent;
+	text-shadow: 0 0 5px rgb(255, 0, 234), 0 0 10px rgb(204, 39, 168), 0 0 20px rgb(231, 102, 199),
+		0 0 40px rgb(221, 53, 171), 0 0 80px rgb(231, 81, 206), 0 0 90px rgb(127, 38, 123), 0 0 100px rgb(127, 38, 120),
+		0 0 140px rgb(127, 38, 112), 0 0 180px rgb(127, 38, 108);
+}
+
+.post-neon {
+	transition: color 256ms;
+	-webkit-animation-name: glow;
+	animation-name: glow;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	text-shadow: 0 0 5vmin #b258f6, 0 0 15vmin #b55cf6, 0 0 20vmin #b966f6;
+}
+
+@-webkit-keyframes glow {
+	0%,
+	100% {
+		color: #ae4ef5;
+		filter: hue-rotate(-20deg);
+	}
+	50% {
+		color: #ae4ef5;
+		filter: hue-rotate(40deg);
+	}
+}
+
+@keyframes glow {
+	0%,
+	100% {
+		color: #ae4ef5;
+		filter: hue-rotate(-20deg);
+	}
+	50% {
+		color: #ae4ef5;
+		filter: hue-rotate(40deg);
+	}
+}
+
+/* .globe {
+  position: relative;
+  -webkit-animation-name: glow;
+          animation-name: glow;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.front {
+  width: 42vmin;
+  height: 16vmin;
+  position: absolute;
+  top: 6vmin;
+  left: -6vmin;
+  border-radius: 100%;
+  border: 2vmin solid #8DC6F9;
+  border-top-color: transparent;
+}
+
+.back {
+  width: 42vmin;
+  height: 16vmin;
+  position: absolute;
+  top: 6vmin;
+  left: -6vmin;
+  border-radius: 100%;
+  border: 2vmin solid transparent;
+  border-top: 2vmin solid #8DC6F9;
+  z-index: -1;
+  box-shadow: 0 0 5vmin #97cbfa;
+}
+
+.center {
+  width: 30vmin;
+  height: 30vmin;
+  border: 2vmin solid #ae4ef5;
+  box-shadow: 0 0 5vmin #b258f6, inset 0 0 5vmin #b258f6;
+  border-radius: 100%;
+  position: relative;
+} */

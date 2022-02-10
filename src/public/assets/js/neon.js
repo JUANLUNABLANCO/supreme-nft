@@ -13,6 +13,7 @@ $(document).ready(function () {
 						$neon.addClass('neon').fadeIn(2200);
 						setTimeout(function () {
 							$neon.removeClass('neon').fadeIn(2800);
+							if ($neon.hasClass('post-neon-on')) $neon.addClass('post-neon');
 						}, 300);
 					}, 100);
 				}, 200);
