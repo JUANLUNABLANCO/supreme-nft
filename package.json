@@ -4,7 +4,7 @@
 	"description": "web with only html5 css y js vanilla",
 	"main": "index.js",
 	"node_version": "16.14.0",
-	"npm_version": "8.4.1",
+	"npm_version": "8.3.1",
 	"scripts": {
 		"nodeDev": "nodemon ./src/server.js",
 		"nodeProd": "pm2 start ./src/server.js"

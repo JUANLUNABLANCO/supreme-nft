@@ -9,6 +9,9 @@
 .bordered {
 	border: 1px solid red;
 }
+.bordegreen {
+	border: 1px solid green;
+}
 
 /* Utilities-elements */
 /* button {

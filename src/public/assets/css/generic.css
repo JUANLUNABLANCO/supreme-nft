@@ -10,7 +10,9 @@
 	/* text-colors */
 	--text-black-color: #222;
 	--text-white-color: #fcfcfc;
-	--subtitle-color: #eeeeee;
+	--text-purpledark-color: #953ec3;
+	--text-purplelight-color: #953ec3;
+	--subtitle-color: #6a6a6a;
 	--emphasis-color: #4c92bf;
 	--link-color: #fab266;
 	--footer-link-color: #5f637a;
