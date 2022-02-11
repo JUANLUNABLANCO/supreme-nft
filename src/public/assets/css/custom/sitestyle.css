@@ -118,6 +118,42 @@
 .btn:not(:last-child) {
 	border-radius: 0.25em 0 0 0.25em;
 }
+
+.btn-bro {
+	display: inline-block;
+	position: relative;
+	width: 240px;
+	height: 60px;
+	background-color: var(--text-purplelight-color);
+	cursor: pointer;
+	font: 700 14px/60px 'Droid Sans', sans-serif;
+	letter-spacing: 0.05em;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: var(--text-purpledark-color) 6px solid;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	-ms-border-radius: 24px;
+	-o-border-radius: 24px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.btn-bro a {
+	color: var(--text-white-color) !important;
+}
+
+.btn-bro .inner {
+	position: relative;
+
+	z-index: 2;
+}
+
 .social-count {
 	border-left: 0;
 	border-radius: 0 0.25em 0.25em 0;

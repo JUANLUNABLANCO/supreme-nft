@@ -56,6 +56,37 @@
 .bottom-card {
 	z-index: var(--zindex-card-bottom);
 }
+@media screen and (min-width: 700px) {
+	.tarot-wrapper-card {
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+
+	.tarot-card {
+		left: 2vw;
+		/* right: 50vw; */
+		top: 400px;
+		bottom: 0;
+	}
+}
+
+@media screen and (min-width: 820px) {
+	.tarot-wrapper-card {
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+
+	.tarot-card {
+		left: 5vw;
+		right: 80vw;
+		top: 0;
+		bottom: 0;
+	}
+}
 @media screen and (min-width: 1200px) {
 	.tarot-wrapper-card {
 		left: 0;
@@ -67,7 +98,7 @@
 	.tarot-card {
 		left: 20vw;
 		right: 80vw;
-		top: 0;
+		top: 200px;
 		bottom: 0;
 	}
 }

@@ -88,35 +88,6 @@
 	z-index: 2;
 }
 
-.btn-bro {
-	display: inline-block;
-	position: relative;
-	width: 240px;
-	height: 60px;
-	background-color: var(--barbarian-color);
-	border-color: transparent;
-	cursor: pointer;
-	font: 700 14px/60px 'Droid Sans', sans-serif;
-	letter-spacing: 0.05em;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	border-radius: 27px;
-	-webkit-border-radius: 27px;
-	-moz-border-radius: 27px;
-	-ms-border-radius: 27px;
-	-o-border-radius: 27px;
-}
-.btn-bro a {
-	color: var(--text-white-color) !important;
-}
-
-.btn-bro .inner {
-	position: relative;
-
-	z-index: 2;
-}
-
 .btn-liquid canvas {
 	position: absolute;
 	top: -50px;
