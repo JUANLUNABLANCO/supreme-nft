@@ -1,17 +1,16 @@
 .cover-stars {
 	height: 100%;
+	/* max-height: 100vh; */
 	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-	overflow: hidden;
+	overflow-y: hidden;
 	z-index: --zindex-normal;
+	/* margin-bottom: 150px; */
 }
-/* z-index */
-/* --zindex-back: -99;
-	--zindex-normal: 0;
-	--zindex-icons: 99;
-	--zindex-menus: 999;
-	--zindex-over-all: 9999;
-	--zindex-controls-over-all: 99999; */
-
+@media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
+	.cover-stars {
+		overflow-y: visible;
+	}
+}
 #stars {
 	width: 1px;
 	height: 1px;
