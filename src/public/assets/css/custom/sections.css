@@ -46,19 +46,19 @@
 	color: var(--hero-text-color);
 }
 
-.jumbotron-title span:nth-child(1) {
-	border-radius: 14px;
-	padding-left: 10px;
+.jumbotron-title span.neon-off {
+	border-radius: 12px;
+	padding-left: 12px;
 	padding-top: 0px;
-	padding-right: 12px;
+	padding-right: 14px;
 	padding-top: 0px;
 	border: 3px solid;
 	line-height: 2px;
 	border-color: var(--text-purpledark-color);
-	-webkit-border-radius: 14px;
-	-moz-border-radius: 14px;
-	-ms-border-radius: 14px;
-	-o-border-radius: 14px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
 	margin-right: 1rem;
 }
 .jumbotron-title span.text-light {
@@ -93,6 +93,7 @@ h1.h1card {
 h2.h2card {
 	font-size: 2.3rem;
 	text-align: center;
+	border-color: transparent !important;
 }
 
 @media screen and (min-width: 820px) {
