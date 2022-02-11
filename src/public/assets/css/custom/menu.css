@@ -1,28 +1,15 @@
 /* ********** Menu ********** */
-.menu-btn {
-	position: fixed;
-	right: 15px;
-	bottom: 15px;
-	outline: thin solid var(--text-white-color);
-	border: 0;
-	cursor: pointer;
-	background-color: var(--second-color);
-}
-
-.menu-btn svg {
-	fill: var(--text-white-color);
-}
 
 .menu {
 	position: fixed;
-	left: 0;
-	bottom: var(--header-height);
-	min-width: 280px;
-	width: 100%;
+	right: 0;
+	bottom: 0;
+	/* min-width: 280px; */
+	/* width: 100%; */
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	background-color: var(--second-color);
-	opacity: 0;
+	opacity: 1;
 	pointer-events: none;
 	transition: opacity 0.5s ease;
 }
@@ -41,15 +28,16 @@
 	color: var(--text-white-color);
 }
 
+.menu a img.icon-navbar {
+	width: 50px;
+	height: 50px;
+}
+
 .menu a:hover {
 	color: var(--link-color);
 	background-color: var(--first-color);
 }
 @media screen and (min-width: 1024px) {
-	.menu-btn {
-		display: none;
-	}
-
 	.menu {
 		position: static;
 		width: auto;

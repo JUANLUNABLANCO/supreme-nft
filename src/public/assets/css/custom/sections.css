@@ -1,4 +1,5 @@
 /* ********** jumbotron */
+
 .jumbotron {
 	/* mobile */
 	height: 100vh;
@@ -119,7 +120,6 @@
 	}
 	.jumbotron-card-footer {
 		width: 100%;
-		border: 1px solid yellow;
 		margin-top:50px;
 		display: flex;
 		flex-direction: row;

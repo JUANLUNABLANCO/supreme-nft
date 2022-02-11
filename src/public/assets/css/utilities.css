@@ -9,8 +9,11 @@
 .bordered {
 	border: 1px solid red;
 }
-.bordegreen {
+.bordergreen {
 	border: 1px solid green;
+}
+.borderyellow {
+	border: 1px solid yellow;
 }
 
 /* Utilities-elements */
@@ -161,12 +164,6 @@ a.link-disabled {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	margin-top: 16px;
-}
-.container {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: var(--max-width);
-	border: 1px solid yellow;
 }
 
 .distance-top-0 {

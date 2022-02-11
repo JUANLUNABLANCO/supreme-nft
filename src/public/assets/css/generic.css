@@ -2,7 +2,7 @@
 :root {
 	--first-color: #4f4f4f; /*#0f1926;*/
 	--first-alpha-color: rgba(79, 79, 79, 0.75);
-	--second-color: #2c3540;
+	--second-color: black; /*#2c3540;*/
 	--second-alpha-color: rgba(44, 53, 64, 0.75);
 	--third-color: #fe0226; /*#39184b; */
 	--third-alpha-color: #d90062;
@@ -38,7 +38,8 @@
 
 	--font: 'Raleway', sans-serif;
 	--max-width: 1200px;
-	--header-height: 4rem;
+	--max-with-header: 1700px;
+	--header-height: 5rem;
 	--ggs: 3;
 	--svg-icons-color: #0b476d;
 	/* animation area background */
@@ -75,12 +76,14 @@ html {
 	text-rendering: optimizeLegibility;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	/* overflow-y: hidden; */
 	background: var(--first-color);
 }
 
 body {
 	margin: 0;
 	overflow-x: hidden;
+	overflow-y: hidden;
 	color: var(--text-color);
 }
 main {

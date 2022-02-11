@@ -10,12 +10,26 @@
 	padding: 0.3rem;
 	width: 100%;
 	height: var(--header-height);
+
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: strech;
+
 	background-color: var(--second-color);
 }
+.container {
+	/* margin-left: auto;
+	margin-right: auto; */
+	max-width: var(--max-width);
+	margin-right: 5vw;
 
+	/* border: 1px solid blue; */
+}
 .header > .container {
+	max-width: var(--max-width-header);
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
 	align-items: center;
 }
 
@@ -24,13 +38,6 @@
 	flex-direction: row;
 	align-items: center;
 }
-/* .logo-header {*/
-/* display: none; */
-/* position: fixed;
-	left: 0;
-	bottom: 0; */
-/* z-index: var(--zindex-back); */
-/*} */
 .logo-header .logo-title {
 	font-size: 1rem !important;
 }
@@ -49,6 +56,9 @@
 	/* color:  var(--third-alpha-color); */
 }
 .svg-logo {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
 	display: block;
 	height: 60px;
 	width: 150px; /* 136px; */
@@ -57,6 +67,15 @@
 	color: transparent;
 	font-size: 0;
 	line-height: 0;
+}
+@media screen and (min-width: 1024px) {
+	.svg-logo {
+		position: absolute;
+		top: 30px;
+		left: 120px;
+		height: 120px;
+		width: 300px;
+	}
 }
 
 .svg-logo--negative {
@@ -90,7 +109,8 @@
 	background-repeat: repeat-x;
 	background-position: -1px -1px;
 	background-size: 110% 110%;
-	border: 1px solid;
+
+	/* border: 1px solid; */
 }
 .btn {
 	border-radius: 0.25em;
