@@ -16,13 +16,13 @@
 }
 
 .tarot-card {
-	width: 300px;
-	height: 450px;
+	width: 250px;
+	height: 375px;
 	margin: auto;
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 450px;
+	top: 700px;
 	/* bottom: 0; */
 	box-shadow: 0px 2px 30px #000;
 	cursor: pointer;
@@ -57,6 +57,11 @@
 	z-index: var(--zindex-card-bottom);
 }
 @media screen and (min-width: 700px) {
+	.tarot-card {
+		width: 300px;
+		height: 450px;
+	}
+
 	.tarot-wrapper-card {
 		left: 0;
 		right: 0;
