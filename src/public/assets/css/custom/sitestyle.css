@@ -27,10 +27,11 @@
 
 @media only screen and (min-width: 1000px) {
 	.area {
-		position: relative;
-		top: 40px;
-		left: 60px;
+		position: absolute;
+		bottom: 140px;
+		left: 460px;
 		letter-spacing: 3px;
+		visibility: visible;
 	}
 }
 
