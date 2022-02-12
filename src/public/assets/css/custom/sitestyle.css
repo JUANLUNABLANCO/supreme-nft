@@ -29,7 +29,7 @@
 	.area {
 		position: absolute;
 		bottom: 140px;
-		left: 460px;
+		left: 490px;
 		letter-spacing: 3px;
 		visibility: visible;
 	}
@@ -51,8 +51,8 @@
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	z-index: var(--zindex-menus);
-	padding: 0.3rem;
+	z-index: var(--zindex-controls-over-all);
+	padding: 0;
 	width: 100%;
 	height: var(--header-height);
 
@@ -102,8 +102,8 @@
 }
 .svg-logo {
 	position: absolute;
-	bottom: 0;
-	left: 20px;
+	bottom: 5px;
+	left: 10px;
 	display: block;
 	height: 60px;
 	width: 150px; /* 136px; */
@@ -123,9 +123,9 @@
 	}
 }
 
-.svg-logo--negative {
+/* .svg-logo--negative {
 	background-image: url(../../images/icon-logo/logo_black_400x162.png);
-}
+} */
 /* ********** widget */
 .widget {
 	display: inline-block;
@@ -266,7 +266,7 @@
 .team {
 	/* background-color: var(--second-color); */
 	/* background: url() fixed center no-repeat; */
-	background-image: url(../../images/bg_team_07.jpg);
+	/* background-image: url(../../images/bg_team_07.jpg); */
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -20,7 +20,7 @@
 }
 
 .menu a {
-	padding: 1rem;
+	padding: 0.3rem;
 	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: center;
@@ -29,8 +29,8 @@
 }
 
 .menu a img.icon-navbar {
-	width: 40px;
-	height: 40px;
+	width: 24px;
+	height: 24px;
 }
 
 .menu a:hover {
@@ -48,6 +48,10 @@
 
 	.menu a {
 		padding: 0 1rem;
+	}
+	.menu a img.icon-navbar {
+		width: 40px;
+		height: 40px;
 	}
 
 	.menu a:last-child {

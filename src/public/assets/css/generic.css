@@ -39,7 +39,7 @@
 	--font: 'Raleway', sans-serif;
 	--max-width: 1200px;
 	--max-with-header: 1700px;
-	--header-height: 5rem;
+	--header-height: 4.5rem;
 	--ggs: 3;
 	--svg-icons-color: #0b476d;
 	/* animation area background */
@@ -76,14 +76,13 @@ html {
 	text-rendering: optimizeLegibility;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
-	/* overflow-y: hidden; */
 	background: black;
 }
 
 body {
 	margin: 0;
 	overflow-x: hidden;
-	/* overflow-y: hidden; */
+	/* overflow-y: visible; */
 	color: var(--text-color);
 }
 
