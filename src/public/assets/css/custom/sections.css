@@ -73,7 +73,8 @@
 	background-attachment: fixed;
 }
 .jumbotron-content {
-	background-color: #000;
+	/* background-color: #000; */
+	background-color: transparent;
 }
 /* las cartas */
 .jumbotron-content:nth-child(1) {
@@ -102,7 +103,7 @@ h2.h2card {
 		height: 120vh;
 	}
 	.jumbotron-content:nth-child(1) {
-		top: -370px;
+		top: -410px;
 		left: 15vw;
 	}
 	.jumbotron-content:nth-child(2) {
