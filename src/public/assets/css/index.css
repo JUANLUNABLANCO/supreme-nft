@@ -4,19 +4,9 @@
 @import url('./custom/stars.css');
 @import url('./custom/tarot.css');
 @import url('./custom/sections.css');
-@import url('./custom/menu.css');
-@import url('./custom/3dfx.css');
+@import url('./custom/icons.css');
+/* @import url('./custom/3dfx.css'); */
 @import url('./custom/sitestyle.css');
-@import url('./custom/neon.css'); /* ********** Components ***** */
+@import url('./custom/neon.css');
+/* ********** Components ***** */
 /* **************************************************************************** */
-/*
-    ### tutorial
-    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-    ### centrar algo en columnas ### 
-    display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	text-align: center;
-    */
