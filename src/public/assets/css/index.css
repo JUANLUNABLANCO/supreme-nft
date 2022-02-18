@@ -5,8 +5,14 @@
 @import url('./custom/tarot.css');
 @import url('./custom/sections.css');
 @import url('./custom/icons.css');
-/* @import url('./custom/3dfx.css'); */
 @import url('./custom/sitestyle.css');
 @import url('./custom/neon.css');
+@import url('./custom/modal.css');
+@import url('./custom/video.css');
 /* ********** Components ***** */
 /* **************************************************************************** */
+/* centrar algo */
+/* display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; */

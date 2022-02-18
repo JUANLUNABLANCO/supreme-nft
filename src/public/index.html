@@ -51,7 +51,7 @@
 			gtag('config', 'G-SH9GNVD5VJ');
 		</script> -->
 	</head>
-	<body class="">
+	<body>
 		<header class="header">
 			<section class="container">
 				<div class="logo logo-header">
@@ -92,6 +92,39 @@
 				<div id="stars2"></div>
 				<div id="stars3"></div>
 			</div>
+
+			<div class="video _none bordered" id="video-promotion">
+				<div class="modal-video"></div>
+			</div>
+
+			<button class="btn-bro zindex-overall">
+				<a href="#videoPromotionModal" id="openModalVideo" class="inner" title="view white paper"
+					>View Video Promotion</a
+				>
+			</button>
+
+			<section id="videoPromotionModal" class="modal">
+				<a href="#cerrar" class="modal-close" id="closeModal">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path
+							d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+						/>
+					</svg>
+				</a>
+				<div class="modal-content">
+					<!-- you can use preload="none" -->
+					<video
+						id="video01"
+						class="video-js vjs-default-skin video-sizes"
+						data-setup='{"controls": false, "autoplay": false, "preload": "auto"}'
+						poster="./assets/images/heroimage_05.jpg"
+					>
+						<!-- data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }' -->
+						<source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
+						<source src="https://vjs.zencdn.net/v/oceans.webm" type="video/webm" />
+					</video>
+				</div>
+			</section>
 
 			<section id="init" class="init full-lg-screen">
 				<article class="jumbotron _bordered">
@@ -157,13 +190,12 @@
 					</aside>
 				</article>
 			</section>
-			<!-- </div> -->
 		</main>
-		<!-- </main> -->
 
 		<!-- ############################ scripts -->
-		<script src="./assets/js/menu.js"></script>
+		<!-- <script src="./assets/js/menu.js"></script> -->
 		<script src="./assets/js/tarot.js"></script>
 		<script src="./assets/js/neon.js"></script>
+		<script src="./assets/js/controls.js"></script>
 	</body>
 </html>

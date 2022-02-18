@@ -51,9 +51,10 @@
 	--zindex-card-top: 700;
 	--zindex-card-normal: 600;
 	--zindex-card-bottom: 500;
-	--zindex-menus: 999;
-	--zindex-over-all: 9999;
-	--zindex-controls-over-all: 99999;
+	--zindex-menus: 999; /*999*/
+	--zindex-over-all: 9999; /*9999;*/
+	--zindex-modal: 99999; /*99999;*/
+	--zindex-controls-over-all: 99999; /*99999;*/
 }
 /* ********** Custom Properties ********** */
 /* **************************************************************************** */
