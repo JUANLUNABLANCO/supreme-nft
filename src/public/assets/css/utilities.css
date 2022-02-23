@@ -138,6 +138,29 @@ textarea {
 .bolder {
 	font-weight: 700;
 }
+.centered-horizontal {
+	display: flex;
+	flex-direction: row;
+	align-items: center; /* vertical alineamiento dentro del row*/
+	/* horizontal alineamiento */
+	justify-content: center;
+}
+.centered-vertical {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* vertical alineamiento dentro del row*/
+	/* verticalalineamiento*/
+	align-content: center;
+}
+.centered-both {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* vertical alineamiento dentro del row*/
+	/* verticalalineamiento*/
+	align-content: center;
+	/* horizontal alineamiento */
+	justify-content: center;
+}
 .circle {
 	border-radius: 25%;
 	-webkit-border-radius: 25%;

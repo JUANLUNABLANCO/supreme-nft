@@ -4,13 +4,14 @@
 	--first-alpha-color: rgba(79, 79, 79, 0.75);
 	--second-color: black; /*#2c3540;*/
 	--second-alpha-color: rgba(44, 53, 64, 0.75);
-	--third-color: #fe0226; /*#39184b; */
-	--third-alpha-color: #d90062;
+	--third-color: rgba(255, 0, 51, 1); /*#39184b; */
+	--third-alpha-color: rgba(255, 0, 51, 0.75);
 	--fourth-color: #547e99;
 	/* text-colors */
 	--text-black-color: #222;
 	--text-white-color: #fcfcfc;
 	--text-purpledark-color: #481f61;
+	--text-purplemiddle-color: #713497;
 	--text-purplelight-color: #923fc3;
 	--subtitle-color: #6a6a6a;
 	--emphasis-color: #4c92bf;

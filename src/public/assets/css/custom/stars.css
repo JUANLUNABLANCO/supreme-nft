@@ -3,7 +3,8 @@
 } */
 .cover-stars {
 	height: 100%;
-	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	/* #090a0f */
+	background-color: transparent;
 	z-index: --zindex-normal;
 }
 @media only screen and (min-device-width: 200px) and (max-device-width: 480px) {

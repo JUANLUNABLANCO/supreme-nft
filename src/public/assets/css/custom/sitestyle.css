@@ -47,6 +47,7 @@
 .about {
 	padding-top: 1rem;
 }
+
 .header {
 	position: fixed;
 	left: 0;
@@ -61,7 +62,9 @@
 	justify-content: right;
 	align-items: strech;
 
-	background-color: var(--second-color);
+	/* var(--second-color); */
+	background-color: transparent;
+	/* background: radial-gradient(ellipse at top, #1b2735 0%, #471f1f 30%, red 100%); */
 }
 .container {
 	/* margin-left: auto;
