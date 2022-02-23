@@ -1,11 +1,11 @@
 /* ********** Site Styles **** */
 @font-face {
 	font-family: pixelart;
-	src: url(../tipography/PUBLICPIXEL.TTF);
+	src: url(../../tipography/PUBLICPIXEL.ttf);
 }
 .pixelart {
 	font-family: pixelart;
-	/* font-size: 24px; */
+	font-size: 10px !important;
 }
 .area {
 	text-align: center;
@@ -32,6 +32,9 @@
 		left: 490px;
 		letter-spacing: 3px;
 		visibility: visible;
+	}
+	.pixelart {
+		font-size: 12px !important;
 	}
 }
 
@@ -327,6 +330,10 @@
 	}
 	.start {
 		padding: 4rem 1rem 0rem 1rem;
+	}
+	.btn-bro {
+		width: 280px;
+		height: 70px;
 	}
 }
 
