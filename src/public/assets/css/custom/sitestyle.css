@@ -4,8 +4,8 @@
 	src: url(/assets/tipography/publicpixel.ttf) format('truetype');
 }
 .pixelart {
-	font-family: pixelart;
-	font-size: 10px !important;
+	font-family: Calibri;
+	font-size: 16px !important;
 }
 .area {
 	text-align: center;
@@ -34,7 +34,7 @@
 		visibility: visible;
 	}
 	.pixelart {
-		font-size: 12px !important;
+		font-size: 24px !important;
 	}
 }
 
