@@ -1,7 +1,7 @@
 /* ********** Site Styles **** */
 @font-face {
 	font-family: pixelart;
-	src: url(../../tipography/PUBLICPIXEL.ttf);
+	src: url(/assets/tipography/PUBLICPIXEL.ttf);
 }
 .pixelart {
 	font-family: pixelart;
