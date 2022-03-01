@@ -3,11 +3,6 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
-<<<<<<< HEAD
-	/* #090a0f */
-	background-color: transparent;
-	z-index: --zindex-normal;
-=======
 	background: #1a0c2c;
 	background-size: 100% 100%;
 	padding-top: 125px;
@@ -15,7 +10,6 @@
 	color: #fff;
 	overflow-x: hidden;
 	/* overflow-y: hidden; */
->>>>>>> master
 }
 @media screen and (min-width: 1000px) {
 	.wrap-stars {
