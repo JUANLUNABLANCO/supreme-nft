@@ -1,152 +1,80 @@
-section.clip {
-	width: 135px; /* 135px*/
-	height: 128px; /*128px*/
-	border-radius: 15px;
-	position: fixed;
-	bottom: 30px;
-	right: 50px;
+.clip {
+	width: 85px; /* 135px*/
+	height: 80px;
+	right: 25px !important;
+	bottom: 90px !important;
+}
 
-	background-color: var(--text-black-color); /*#3c3f67;*/
-	box-shadow: 0 0px 0px 5px #fbebd1, 0 5px 10px 7px rgba(31, 32, 44, 1);
+.click-video {
+	width: 150px;
+	height: 150px;
+	background-color: transparent;
+	background-image: url(/assets/images/click/arrow_right_down_video.png);
+	position: fixed;
+	bottom: 100px;
+	right: 60px;
+	border: 0;
+}
+.click-cards {
+	width: 150px;
+	height: 150px;
+	background-color: transparent;
+	background-image: url(/assets/images/click/arrow_right_down_cards.png);
+	position: fixed;
+	top: 400px;
+	left: 50px;
+	border: 0;
+}
+
+/* .click-video {
+	width: 0;
+	height: 0;
+	background-image: none;
+} */
+
+.clip {
+	width: 50px; /* 135px*/
+	height: 50px;
+}
+.clip {
+	/* border-radius: 15px; */
+	position: fixed;
+	bottom: 50px;
+	right: 15px;
+	/*  var(--text-black-color);#3c3f67;*/
+	background-color: transparent;
+	/* box-shadow: 0 0px 0px 5px #fbebd1, 0 5px 10px 7px rgba(31, 32, 44, 1); */
 	z-index: 100;
 }
-
-.clip .rec {
-	overflow: hidden;
-	border-radius: 15px 15px 0 0;
-	height: 35px;
-	z-index: 200;
+@media screen and (min-width: 640px) {
+	.click-cards {
+		top: 550px;
+		left: 17vw;
+		border: 0;
+	}
 }
-
-.clip .skew {
-	position: relative;
-	top: 0px;
-	left: 25px;
-
-	width: 18px;
-	height: 18px;
-
-	-webkit-transform: skewX(35deg);
-	-moz-transform: skewX(35deg);
-	-ms-transform: skewX(35deg);
-	-o-transform: skewX(35deg);
-
-	box-shadow: 30px 0 0 0 var(--text-purpledark-color), 60px 0 0 0 var(--text-purplemiddle-color),
-		90px 0 0 0 var(--text-purplelight-color);
-	/* 30px 0 0 0 #47afca, 60px 0 0 0 #47afca, 90px 0 0 0 #47afca; */
-
-	background: var(--text-purpledark-color);
-	z-index: 300;
+@media screen and (min-width: 1000px) {
+	.click-cards {
+		top: 200px;
+		left: 400px;
+		background-image: url(/assets/images/click/arrow_left_down_cards.png);
+	}
 }
-
-clip .skew:after {
-	content: '';
-	position: relative;
-	top: 0px;
-	left: 18px;
-
-	width: 14px;
-	height: 18px;
-	box-shadow: 30px 0 0 0 #fff, 60px 0 0 0 #fff, 90px 0 0 0 #fff;
-
-	background: #fff;
-	z-index: 300;
+@media screen and (min-width: 1180px) {
+	.clip {
+		width: 85px; /* 135px*/
+		height: 80px;
+		right: 120px;
+		bottom: 70px;
+	}
+	.click-video {
+		bottom: 100px;
+		right: 100px;
+	}
 }
-
-.clip .clipping {
-	position: relative;
-	top: 0px;
-	left: 25px;
-
-	width: 18px;
-	height: 18px;
-
-	-webkit-transform: skewX(-35deg);
-	-moz-transform: skewX(-35deg);
-	-ms-transform: skewX(-35deg);
-	-o-transform: skewX(-35deg);
-
-	box-shadow: 30px 0 0 0 var(--text-purpledark-color), 60px 0 0 0 var(--text-purplemiddle-color),
-		90px 0 0 0 var(--text-purplelight-color);
-	background: var(--text-purpledark-color);
-
-	z-index: 300;
-}
-
-.clip .clipping:after {
-	content: '';
-	position: relative;
-	top: 0px;
-	left: 18px;
-
-	width: 14px;
-	height: 18px;
-	box-shadow: 30px 0 0 0 #fce6ca, 60px 0 0 0 #fce6ca, 90px 0 0 0 #fce6ca;
-	background: #fce6ca;
-
-	z-index: 300;
-}
-
-.clip .trap {
-	position: relative;
-	top: -61px;
-	left: 0px;
-	width: 10px;
-
-	border-top: 43px solid transparent;
-	border-left: 32px solid var(--third-color);
-	border-bottom: 35px solid var(--third-color);
-
-	z-index: 400;
-}
-
-.clip .circle {
-	position: relative;
-	width: 13px;
-	height: 13px;
-	top: -23px;
-	left: 10px;
-	background: white;
-	border-radius: 50%;
-
-	z-index: 500;
-}
-
-.clip h1 {
-	font-family: 'Condiment', cursive;
-	font-size: 2.5em;
-	font-weight: 400;
-	letter-spacing: 0em;
-	text-shadow: 0 1px 5px #1c1e47;
-	text-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
-
-	color: #f6fcfc;
-
-	position: relative;
-	top: -20px;
-	left: 30px;
-
-	-webkit-transform: rotate(-7deg);
-	-moz-transform: rotate(-7deg);
-	-ms-transform: rotate(-7deg);
-	-o-transform: rotate(-7deg);
-}
-
-.clip .line {
-	position: relative;
-	width: 60px;
-	height: 2px;
-	top: -40px;
-	left: 41px;
-	background: #f6fcfc;
-	border-radius: 200px / 10px;
-
-	-webkit-transform: rotate(-8deg);
-	-moz-transform: rotate(-8deg);
-	-ms-transform: rotate(-8deg);
-	-o-transform: rotate(-8deg);
-
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
-
-	z-index: 500;
+@media screen and (min-width: 1600px) {
+	.click-cards {
+		top: 380px;
+		left: 650px;
+	}
 }

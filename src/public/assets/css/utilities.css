@@ -309,7 +309,11 @@ a.link-disabled {
 .padding-top3 {
 	padding-top: 3rem;
 }
-
+@media screen and (max-width: 1023px) {
+	.small-none {
+		display: none;
+	}
+}
 @media screen and (min-width: 1024px) {
 	.full-lg-screen {
 		width: 100%;
