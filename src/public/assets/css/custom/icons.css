@@ -2,7 +2,7 @@
 
 .menu {
 	position: fixed;
-	right: 0;
+	right: 10px;
 	bottom: 0;
 	/* min-width: 280px; */
 	/* width: 100%; */
@@ -38,6 +38,11 @@
 	color: var(--link-color);
 	background-color: var(--first-color);
 }
+/* @media screen and (min-width: 300px) {
+	.menu {
+		right: 10px;
+	}
+} */
 @media screen and (min-width: 1024px) {
 	.menu {
 		position: static;

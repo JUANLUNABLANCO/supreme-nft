@@ -67,6 +67,7 @@
 	box-sizing: inherit;
 	margin: 0;
 	padding: 0;
+	overflow-y: visible !important;
 }
 
 html {
@@ -84,7 +85,7 @@ html {
 body {
 	margin: 0;
 	overflow-x: hidden;
-	/* overflow-y: visible; */
+	/* overflow-y: visible !important; */
 	color: var(--text-color);
 }
 

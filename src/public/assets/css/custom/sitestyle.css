@@ -1,11 +1,11 @@
 /* ********** Site Styles **** */
 @font-face {
 	font-family: pixelart;
-	src: url(../tipography/PUBLICPIXEL.TTF);
+	src: url(/assets/tipography/publicpixel.ttf) format('truetype');
 }
 .pixelart {
-	font-family: pixelart;
-	/* font-size: 24px; */
+	font-family: 'pixelart';
+	font-size: 2.5vw !important;
 }
 .area {
 	text-align: center;
@@ -24,7 +24,19 @@
 	z-index: var(--zindex-over-all);
 	visibility: hidden;
 }
-
+.btn-bro {
+	padding: 2vw;
+	height: 60px;
+}
+@media only screen and (min-width: 600px) {
+	.pixelart {
+		font-size: 1.5vw !important;
+	}
+	.btn-bro {
+		height: 70px;
+		padding: 3vw;
+	}
+}
 @media only screen and (min-width: 1000px) {
 	.area {
 		position: absolute;
@@ -32,6 +44,12 @@
 		left: 490px;
 		letter-spacing: 3px;
 		visibility: visible;
+	}
+	.pixelart {
+		font-size: 12px !important;
+	}
+	.btn-bro {
+		padding: 10px;
 	}
 }
 
@@ -106,7 +124,7 @@
 .svg-logo {
 	position: absolute;
 	bottom: 5px;
-	left: 10px;
+	left: 0;
 	display: block;
 	height: 60px;
 	width: 150px; /* 136px; */
@@ -170,8 +188,9 @@
 .btn-bro {
 	display: inline-block;
 	position: relative;
-	width: 240px;
-	height: 60px;
+	/* width: 240px; */
+	/* padding: 2vw;
+	height: 60px; */
 	background-color: var(--text-purplelight-color);
 	cursor: pointer;
 	font: 700 14px/60px 'Droid Sans', sans-serif;
@@ -330,6 +349,10 @@
 	}
 	.start {
 		padding: 4rem 1rem 0rem 1rem;
+	}
+	.btn-bro {
+		width: 280px;
+		height: 70px;
 	}
 }
 
