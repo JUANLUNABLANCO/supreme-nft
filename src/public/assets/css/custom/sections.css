@@ -62,11 +62,16 @@ h2.h2card {
 	align-items: center;
 	text-align: justify;
 
-	background-image: url(../../images/heroimage_05.jpg);
-	background-position: bottom-left;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	background: transparent;
+}
+@media screen and (min-width: 1000px) {
+	.jumbotron {
+		background-image: url(../../images/heroimage_01.png);
+		background-position: bottom-left;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
 }
 .jumbotron-content {
 	/* background-color: #000; */
