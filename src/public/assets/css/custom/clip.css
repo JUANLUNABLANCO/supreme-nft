@@ -1,80 +1,64 @@
-.clip {
-	width: 85px; /* 135px*/
-	height: 80px;
-	right: 25px !important;
-	bottom: 90px !important;
-}
-
-.click-video {
+.poster-video {
 	width: 150px;
-	height: 150px;
-	background-color: transparent;
-	background-image: url(/assets/images/click/arrow_right_down_video.png);
+	height: 90px;
+	background-image: url('/assets/multimedia/poster_promotion.png');
+	background-position: 0, 0;
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: fixed;
-	bottom: 100px;
-	right: 60px;
-	border: 0;
+	right: 30vw;
+	/* left: 60px; */
+	bottom: 80px;
+	z-index: 99;
 }
-.click-cards {
-	width: 150px;
-	height: 150px;
-	background-color: transparent;
-	background-image: url(/assets/images/click/arrow_right_down_cards.png);
-	position: fixed;
-	top: 400px;
-	left: 50px;
-	border: 0;
-}
-
-/* .click-video {
-	width: 0;
-	height: 0;
-	background-image: none;
-} */
-
 .clip {
-	width: 50px; /* 135px*/
+	background-color: transparent;
+	width: 60px;
 	height: 50px;
-}
-.clip {
-	/* border-radius: 15px; */
 	position: fixed;
-	bottom: 50px;
-	right: 15px;
-	/*  var(--text-black-color);#3c3f67;*/
-	background-color: transparent;
-	/* box-shadow: 0 0px 0px 5px #fbebd1, 0 5px 10px 7px rgba(31, 32, 44, 1); */
+	/* left: 110px; */
+	right: 40vw;
+	bottom: 100px;
 	z-index: 100;
 }
+
 @media screen and (min-width: 640px) {
-	.click-cards {
-		top: 550px;
-		left: 17vw;
-		border: 0;
+	.poster-video {
+		right: 45vw;
+	}
+	.clip {
+		right: 50vw;
 	}
 }
 @media screen and (min-width: 1000px) {
-	.click-cards {
-		top: 200px;
-		left: 400px;
-		background-image: url(/assets/images/click/arrow_left_down_cards.png);
+	.poster-video {
+		right: 5vw;
+	}
+	.clip {
+		right: 5vw;
 	}
 }
 @media screen and (min-width: 1180px) {
 	.clip {
-		width: 85px; /* 135px*/
-		height: 80px;
-		right: 120px;
-		bottom: 70px;
+		width: 90px; /* 135px*/
+		height: 84px;
+		right: 110px;
+		bottom: 60px;
 	}
-	.click-video {
+	.poster-video {
+		width: 250px;
+		height: 141px;
+		bottom: 30px;
+	}
+
+	/* .click-video {
 		bottom: 100px;
 		right: 100px;
-	}
+	} */
 }
 @media screen and (min-width: 1600px) {
-	.click-cards {
+	/* .click-cards {
 		top: 380px;
 		left: 650px;
-	}
+	} */
 }

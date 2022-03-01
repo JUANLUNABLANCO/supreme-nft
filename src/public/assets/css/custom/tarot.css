@@ -1,4 +1,7 @@
 /* ### tarot crads*/
+body {
+	height: 150vh;
+}
 .tarot-wrapper-card {
 	position: absolute;
 	top: 0;
@@ -17,9 +20,9 @@
 	height: 300px;
 	margin: auto;
 	position: absolute;
-	left: 10vw;
+	left: 15vw;
 	right: 10vw;
-	top: 300px;
+	top: 350px;
 	box-shadow: 0px 2px 30px #000;
 	cursor: pointer;
 	border-radius: 10px;
@@ -55,6 +58,14 @@
 	z-index: var(--zindex-card-bottom);
 }
 
+@media screen and (min-width: 300px) {
+	.tarot-card {
+		top: 200px;
+		left: 5vw;
+		right: 5vw;
+	}
+}
+
 @media screen and (min-width: 360px) {
 	.tarot-card {
 		width: 250px;
@@ -71,6 +82,10 @@
 	.tarot-card {
 		width: 340px;
 		height: 460px;
+		left: 10vw;
+	}
+	body {
+		height: 140vh;
 	}
 }
 @media screen and (min-width: 1000px) {
@@ -79,6 +94,9 @@
 		right: 80vw;
 		top: 300px;
 		/* bottom: 50vh; */
+	}
+	body {
+		height: 110vh;
 	}
 }
 @media screen and (min-width: 1200px) {

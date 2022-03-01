@@ -64,15 +64,7 @@ h2.h2card {
 
 	background: transparent;
 }
-@media screen and (min-width: 1000px) {
-	.jumbotron {
-		background-image: url(/assets/images/heroimage_01.png);
-		background-position: bottom-left;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-	}
-}
+
 .jumbotron-content {
 	/* background-color: #000; */
 	background-color: transparent;
@@ -159,6 +151,13 @@ h2.h2card {
 		font-size: 2.2rem;
 		text-align: center;
 	}
+	.jumbotron {
+		background-image: url(/assets/images/heroimage_01.png);
+		background-position: bottom-left;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
 
 	.jumbotron {
 		height: 100vh;
@@ -169,7 +168,7 @@ h2.h2card {
 		grid-gap: 10px;
 	}
 	.jumbotron-content {
-		height: 30vw;
+		height: 40vw;
 		background-color: transparent;
 	}
 	.jumbotron-content:nth-child(1) {
@@ -194,14 +193,13 @@ h2.h2card {
 	}
 	.jumbotron-card-footer {
 		width: 100%;
-		margin-top: 50px;
+		margin-top: 0;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 	}
 }
-
 @media screen and (min-width: 1400px) {
 	h1.h1card {
 		font-size: 3.5rem;
