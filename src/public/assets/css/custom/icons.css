@@ -1,7 +1,7 @@
 /* ********** Menu ********** */
 
 .menu {
-	position: fixed;
+	position: static;
 	right: 10px;
 	bottom: 0;
 	/* min-width: 280px; */
@@ -10,8 +10,9 @@
 	flex-direction: row;
 	background-color: transparent;
 	opacity: 1;
-	pointer-events: none;
+
 	transition: opacity 0.5s ease;
+	z-index: var(--zindex-over-all);
 }
 
 .menu.is-active {
@@ -46,18 +47,24 @@
 @media screen and (min-width: 1024px) {
 	.menu {
 		position: static;
+		top: 40px !important;
+		right: 40px !important;
 		width: auto;
 		flex-direction: row;
+		justify-content: center;
+		align-items: flex-end;
+		text-align: justify;
 		opacity: 1;
 		pointer-events: auto;
+		height: 128px;
 	}
 
 	.menu a {
 		padding: 0 1rem;
 	}
 	.menu a img.icon-navbar {
-		width: 40px;
-		height: 40px;
+		width: 60px;
+		height: 60px;
 	}
 
 	.menu a:last-child {

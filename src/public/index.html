@@ -86,6 +86,7 @@
 					<!-- ############## COVER STARS #################### -->
 					<!-- ############## MAIN  ########################## -->
 					<main>
+						<div class="zindex-overall click-cards"></div>
 						<!-- ############## INIT ####################### -->
 						<section id="init" class="init full-lg-screen">
 							<article class="jumbotron _bordered">
@@ -109,8 +110,6 @@
 										<div class="tarot-card">
 											<img src="./assets/images/tarot/tarot_back.png" />
 										</div>
-
-										<div class="area">⚠Cliquez⚠</div>
 									</div>
 									<!--   <h1>Click to Shuffle</h1> -->
 								</aside>
@@ -138,7 +137,7 @@
 											Supreme NFT est une collection de 55 550 Cartes uniques des rapeurs français qui donnent accès à
 											des nombreux avantages. 1 nft acheté = 1 place de concert offerte et beaucoup plus.
 											<br />
-											Pour en savoir plus rejoint le discord.
+											Pour en savoir plus rejoins le discord.
 										</h2>
 										<!-- <button class="space-v-l btn-liquid">
 								<a target="_blank" href="https://pancakeswap.finance/" class="inner" title="MINT">MINT</a>
@@ -150,7 +149,7 @@
 													class="inner pixelart"
 													title="go to discord"
 													target="_blank"
-													>REJOINT LE DISCORD</a
+													>REJOINS LE DISCORD</a
 												>
 											</button>
 										</div>
@@ -165,6 +164,45 @@
 				</div>
 			</div>
 		</div>
+		<!-- #################### VIDEO #################### -->
+		<!-- <div class="video _none _bordered" id="video-promotion">
+			<div class="modal-video"></div>
+		</div> -->
+		<div class="zindex-overall click-video"></div>
+		<div class="zindex-overall clip _bordergreen">
+			<a href="#videoPromotionModal" id="openModalVideo" class="inner" title="view white paper">
+				<!-- <div class="rec">
+					<div class="skew"></div>
+					<div class="clipping"></div>
+					<div class="trap"></div>
+				</div>
+				<div class="circle"></div>
+				<h1 class="play">&#9654;</h1>
+				<div class="line"></div> -->
+				<img class="" src="/assets/images/icons/play_button.png" alt="video play button" />
+			</a>
+		</div>
+
+		<section id="videoPromotionModal" class="modal">
+			<a href="#cerrar" class="modal-close" id="closeModal">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+					<path
+						d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+					/>
+				</svg>
+			</a>
+			<div class="modal-content">
+				<!-- you can use preload="none" -->
+				<video
+					id="video01"
+					class="video-js vjs-default-skin video-sizes"
+					data-setup='{"controls": false, "autoplay": false, "preload": "auto"}'
+				>
+					<!-- data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }' -->
+					<source src="/assets/multimedia/SUPREME_NFT_VDEO_PROMOTION.mp4" type="video/mp4" />
+				</video>
+			</div>
+		</section>
 		<!-- ############## COVER STARS #################### -->
 		<!-- </main> -->
 		<!-- ############################ scripts -->
