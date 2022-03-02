@@ -20,11 +20,11 @@ $(document).ready(function () {
 			}
 		}
 		if (widthDevice > 740 && widthDevice <= 1000) {
-			if (y < 125 && count == 0) {
+			if (y < 184 && count == 0) {
 				posterVideo.addClass('none');
 				clipVideo.addClass('none');
 				count++;
-			} else if (y > 125 && count > 0) {
+			} else if (y > 184 && count > 0) {
 				posterVideo.removeClass('none');
 				clipVideo.removeClass('none');
 				count = 0;
