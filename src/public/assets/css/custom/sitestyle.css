@@ -1,7 +1,8 @@
 /* ********** Site Styles **** */
 @font-face {
 	font-family: pixelart;
-	src: url(/assets/tipography/publicpixel.ttf) format('truetype');
+	src: url('/assets/tipography/publicpixel.ttf') format('truetype'),
+		url('/assets/tipography/publicpixel.otf') format('opentype');
 }
 .pixelart {
 	font-family: 'pixelart';
