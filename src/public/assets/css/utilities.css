@@ -298,7 +298,7 @@ a.link-disabled {
 	-webkit-filter: grayscale(0.3);
 }
 .none {
-	display: none;
+	display: none !important;
 }
 .heading-title-fig {
 	display: flex;

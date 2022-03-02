@@ -165,10 +165,11 @@
 			</div>
 		</div>
 		<!-- #################### VIDEO #################### -->
-		<div id="posterVideo" class="poster-video _smal-none _borderyellow"></div>
-		<div id="clipVideo" class="zindex-overall clip _small-none _bordergreen">
-			<a href="#videoPromotionModal" id="openModalVideo" class="inner" title="view white paper">
-				<!-- <div class="rec">
+		<section class="video-promotional _bordered">
+			<article id="posterVideo" class="poster-video _borderyellow">
+				<div id="clipVideo" class="zindex-overall clip _small-none _bordergreen">
+					<a href="#videoPromotionModal" id="openModalVideo" class="inner" title="view white paper">
+						<!-- <div class="rec">
 					<div class="skew"></div>
 					<div class="clipping"></div>
 					<div class="trap"></div>
@@ -176,29 +177,31 @@
 				<div class="circle"></div>
 				<h1 class="play">&#9654;</h1>
 				<div class="line"></div> -->
-				<img class="" src="/assets/images/icons/play_button.png" alt="video play button" />
-			</a>
-		</div>
+						<img class="" src="/assets/images/icons/play_button.png" alt="video play button" />
+					</a>
+				</div>
+			</article>
 
-		<section id="videoPromotionModal" class="modal">
-			<a href="#cerrar" class="modal-close" id="closeModal">
-				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-					<path
-						d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
-					/>
-				</svg>
-			</a>
-			<div class="modal-content">
-				<!-- you can use preload="none" -->
-				<video
-					id="video01"
-					class="video-js vjs-default-skin video-sizes"
-					data-setup='{"controls": false, "autoplay": false, "preload": "auto"}'
-				>
-					<!-- data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }' -->
-					<source src="/assets/multimedia/video_promotion.mp4" type="video/mp4" />
-				</video>
-			</div>
+			<article id="videoPromotionModal" class="modal">
+				<a href="#cerrar" class="modal-close" id="closeModal">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path
+							d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"
+						/>
+					</svg>
+				</a>
+				<div class="modal-content">
+					<!-- you can use preload="none" -->
+					<video
+						id="video01"
+						class="video-js vjs-default-skin video-sizes"
+						data-setup='{"controls": false, "autoplay": false, "preload": "auto"}'
+					>
+						<!-- data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }' -->
+						<source src="/assets/multimedia/video_promotion.mp4" type="video/mp4" />
+					</video>
+				</div>
+			</article>
 		</section>
 		<!-- ############## COVER STARS #################### -->
 		<!-- </main> -->

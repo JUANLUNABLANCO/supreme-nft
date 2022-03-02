@@ -9,7 +9,7 @@
 	min-height: 100vh;
 	color: #fff;
 	overflow-x: hidden !important;
-	overflow-y: visible !important;
+	overflow-y: hidden !important;
 }
 @media screen and (min-width: 1000px) {
 	.wrap-stars {

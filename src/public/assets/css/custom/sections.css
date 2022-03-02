@@ -224,4 +224,18 @@ h2.h2card {
 	}
 }
 
+/* VIDEO -PROMOTIONAL ##### **/
+.video-promotional {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (min-width: 1000px) {
+	.video-promotional {
+		justify-content: flex-end;
+		padding-right: 50px;
+	}
+}
 /* ABOUT MOBILE ######## **/
