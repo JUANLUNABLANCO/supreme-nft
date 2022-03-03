@@ -82,8 +82,8 @@
 	align-items: strech;
 
 	/* var(--second-color); */
-	background-color: transparent;
-	/* background: radial-gradient(ellipse at top, #1b2735 0%, #471f1f 30%, red 100%); */
+	/* background-color: black; */
+	background: radial-gradient(ellipse at bottom, #111111 0%, rgba(44, 10, 30, 0.75) 80%, #141214 100%);
 }
 .container {
 	/* margin-left: auto;
