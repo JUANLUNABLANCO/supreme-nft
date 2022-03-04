@@ -67,14 +67,13 @@
 		height: 400px;
 	}
 }
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 1024px) {
 	.tarot-card {
 		width: 340px;
 		height: 460px;
-		/* left: 10vw; */
 	}
-}
-@media screen and (min-width: 1200px) {
+} */
+@media screen and (min-width: 1700px) {
 	.tarot-card {
 		width: 375px;
 		height: 550px;

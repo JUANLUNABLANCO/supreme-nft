@@ -1,13 +1,15 @@
 .wrap-stars {
-	/* overflow: hidden; */
-	/* position: relative; */
-	width: 100%;
+	width: 90%;
+	max-width: 90vw !important;
 	height: 100%;
+	/* height: calc(100% - var(--header-height)); */
+	/* max-height: calc(100vh - var(--header-height)); */
 	/* min-height: 250vh; */
 
 	/* background: #000000; */
 	background: transparent;
-	background-size: 100% 100%;
+	/* background-size: 100vw calc(100vh - var(--header-height)); */
+	background-size: 90vw 100vh;
 	/* padding-top: 125px; */
 
 	color: #fff;
@@ -30,8 +32,11 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
+	width: 90%;
+	max-width: 90vw;
+	overflow-x: hidden !important;
 	height: 100%;
+	/* max-height: calc(100vh - var(--header-height)); */
 	/* background: transparent !important; */
 }
 
@@ -40,6 +45,7 @@
 	background: transparent url('/assets/images/stars/stars.png') repeat top center;
 	animation: zoominoutsinglefeatured 30s infinite;
 	-webkit-animation: ;
+	overflow-x: hidden !important;
 }
 
 .twinkling {
@@ -47,6 +53,7 @@
 	background: transparent url('/assets/images/stars/twinkling.png') repeat top center;
 	animation: move-twink-back 200s linear infinite;
 	-webkit-animation: move-twink-back 200s linear infinite;
+	overflow-x: hidden !important;
 }
 
 .clouds {
@@ -54,6 +61,7 @@
 	background: transparent url('/assets/images/stars/clouds.png') repeat top center;
 	animation: move-clouds-back 200s linear infinite;
 	-webkit-animation: move-clouds-back 200s linear infinite;
+	overflow-x: hidden !important;
 }
 
 @keyframes move-twink-back {
@@ -61,7 +69,8 @@
 		background-position: 0 0;
 	}
 	to {
-		background-position: -10000px 5000px;
+		/* background-position: -10000px -5000px; */
+		background-position: 0 -5000px;
 	}
 }
 @keyframes move-clouds-back {
@@ -69,17 +78,30 @@
 		background-position: 0 0;
 	}
 	to {
-		background-position: 10000px 0;
+		/* background-position: 10000px -5000px; */
+		background-position: 0 -5000px;
 	}
 }
 @keyframes zoominoutsinglefeatured {
 	0% {
 		transform: scale(1, 1);
+		-webkit-transform: scale(1, 1);
+		-moz-transform: scale(1, 1);
+		-ms-transform: scale(1, 1);
+		-o-transform: scale(1, 1);
 	}
 	50% {
-		transform: scale(1.2, 1.4);
+		transform: scale(1.2, 1);
+		-webkit-transform: scale(1.2, 1);
+		-moz-transform: scale(1.2, 1);
+		-ms-transform: scale(1.2, 1);
+		-o-transform: scale(1.2, 1);
 	}
 	100% {
 		transform: scale(1, 1);
+		-webkit-transform: scale(1, 1);
+		-moz-transform: scale(1, 1);
+		-ms-transform: scale(1, 1);
+		-o-transform: scale(1, 1);
 	}
 }
