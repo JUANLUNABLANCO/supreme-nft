@@ -6,11 +6,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: fixed;
-	/* right: 30vw; */
-	/* left: 60px; */
 	bottom: 80px;
 	z-index: 99;
-
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -21,38 +18,16 @@
 	width: 60px;
 	height: 50px;
 	position: fixed;
-	/* left: 110px; */
-	/* right: 40vw;
-	bottom: 100px; */
 	z-index: 100;
-}
-
-@media screen and (min-width: 640px) {
-	.poster-video {
-		/* right: 45vw; */
-	}
-}
-@media screen and (min-width: 1000px) {
-	.poster-video {
-		/* right: 5vw; */
-	}
 }
 @media screen and (min-width: 1180px) {
 	.clip {
-		width: 90px; /* 135px*/
+		width: 90px;
 		height: 84px;
-		/* right: 175px;
-		bottom: 60px; */
 	}
 	.poster-video {
 		width: 250px;
 		height: 141px;
 		bottom: 30px;
 	}
-}
-@media screen and (min-width: 1600px) {
-	/* .click-cards {
-		top: 380px;
-		left: 650px;
-	} */
 }
