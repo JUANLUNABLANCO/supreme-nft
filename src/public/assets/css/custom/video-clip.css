@@ -6,7 +6,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: fixed;
-	bottom: 80px;
+	bottom: 30px;
 	z-index: 99;
 	display: flex;
 	flex-direction: row;
@@ -15,19 +15,22 @@
 }
 .clip {
 	background-color: transparent;
-	width: 60px;
-	height: 50px;
+	width: 30px;
+	height: 42px;
 	position: fixed;
+	bottom: 27px;
 	z-index: 100;
 }
 @media screen and (min-width: 1180px) {
 	.clip {
-		width: 90px;
+		width: 60px;
 		height: 84px;
+		bottom: 90px;
+		right: 220px;
 	}
 	.poster-video {
 		width: 250px;
 		height: 141px;
-		bottom: 30px;
+		/* bottom: 30px; */
 	}
 }

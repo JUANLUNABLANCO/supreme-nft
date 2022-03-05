@@ -1,0 +1,773 @@
+.box-music {
+	margin: auto;
+	display: block;
+	width: 300px;
+	height: 220px;
+	background: none;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (min-width: 1024px) {
+	.box-music {
+		width: 450px;
+		height: 250px;
+	}
+}
+
+.box-music:hover .line-1 {
+	height: 10%;
+	top: 45%;
+}
+
+.box-music:hover .line-2 {
+	height: 12%;
+	top: 44%;
+}
+
+.box-music:hover .line-3 {
+	height: 14%;
+	top: 43%;
+}
+
+.box-music:hover .line-4 {
+	height: 10%;
+	top: 45%;
+}
+
+.box-music:hover .line-5 {
+	height: 8%;
+	top: 46%;
+}
+
+.box-music:hover .line-6 {
+	height: 20%;
+	top: 40%;
+}
+
+.box-music:hover .line-7 {
+	height: 9%;
+	top: 45.5%;
+}
+
+.box-music:hover .line-8 {
+	height: 5%;
+	top: 48%;
+}
+
+.box-music:hover .line-9 {
+	height: 15%;
+	top: 42.5%;
+}
+
+.box-music:hover .line-10 {
+	height: 7%;
+	top: 47%;
+}
+
+.box-music:hover .line-11 {
+	height: 30%;
+	top: 35%;
+}
+
+.box-music:hover .line-12 {
+	height: 18%;
+	top: 41%;
+}
+
+.box-music:hover .line-13 {
+	height: 8%;
+	top: 46%;
+}
+
+.box-music:hover .line-14 {
+	height: 18%;
+	top: 41%;
+}
+
+.box-music:hover .line-15 {
+	height: 22%;
+	top: 39%;
+}
+
+.box-music:hover .line-16 {
+	height: 24%;
+	top: 38%;
+}
+
+.box-music:hover .line-17 {
+	height: 20%;
+	top: 40%;
+}
+
+.box-music:hover .line-18 {
+	height: 16%;
+	top: 42%;
+}
+
+.box-music:hover .line-19 {
+	height: 70%;
+	top: 15%;
+}
+
+.box-music:hover .line-20 {
+	height: 90%;
+	top: 5%;
+}
+
+.box-music:hover .line-21 {
+	height: 70%;
+	top: 15%;
+}
+
+.box-music:hover .line-22 {
+	height: 50%;
+	top: 25%;
+}
+
+.box-music:hover .line-23 {
+	height: 30%;
+	top: 35%;
+}
+
+.box-music:hover .line-24 {
+	height: 20%;
+	top: 40%;
+}
+
+.box-music:hover .line-25 {
+	height: 10%;
+	top: 45%;
+}
+
+.box-music:hover .line-26 {
+	height: 5%;
+	top: 48%;
+}
+
+.box-music:hover .line-27 {
+	height: 5%;
+	top: 48%;
+}
+
+.box-music:hover .line-28 {
+	height: 7%;
+	top: 47%;
+}
+
+.box-music:hover .line-29 {
+	height: 15%;
+	top: 42.5%;
+}
+
+.box-music:hover .line-30 {
+	height: 20%;
+	top: 40%;
+}
+
+.box-music:hover .line-31 {
+	height: 30%;
+	top: 35%;
+}
+
+.box-music:hover .line-32 {
+	height: 60%;
+	top: 20%;
+}
+
+.box-music:hover .line-33 {
+	height: 80%;
+	top: 10%;
+}
+
+.box-music:hover .line-34 {
+	height: 100%;
+	top: 0%;
+}
+
+.box-music:hover .line-35 {
+	height: 80%;
+	top: 10%;
+}
+
+.box-music:hover .line-36 {
+	height: 40%;
+	top: 30%;
+}
+
+.box-music:hover .line-37 {
+	height: 10%;
+	top: 45%;
+}
+
+.box-music:hover .line-38 {
+	height: 5%;
+	top: 48%;
+}
+
+.box-music:hover .line-39 {
+	height: 6%;
+	top: 47.5%;
+}
+
+.box-music:hover .line-40 {
+	height: 4%;
+	top: 48.5%;
+}
+
+.box-music:hover .line-41 {
+	height: 10%;
+	top: 45%;
+}
+
+.box-music:hover .line-42 {
+	height: 15%;
+	top: 42.5%;
+}
+
+.box-music:hover .line-43 {
+	height: 25%;
+	top: 37.5%;
+}
+
+.box-music:hover .line-44 {
+	height: 15%;
+	top: 42.5%;
+}
+
+.box-music:hover .line-45 {
+	height: 5%;
+	top: 48%;
+}
+
+.box-music:hover .line-46 {
+	height: 10%;
+	top: 45%;
+}
+
+.box-music:hover .line-47 {
+	height: 20%;
+	top: 40%;
+}
+
+.box-music:hover .line-48 {
+	height: 15%;
+	top: 42.5%;
+}
+
+.box-music:hover .line-49 {
+	height: 10%;
+	top: 45%;
+}
+
+.box-music:hover .line-50 {
+	height: 20%;
+	top: 40%;
+}
+
+.line-1,
+.line-2,
+.line-3,
+.line-4,
+.line-5,
+.line-6,
+.line-7,
+.line-8,
+.line-9,
+.line-10,
+.line-11,
+.line-12,
+.line-13,
+.line-14,
+.line-15,
+.line-16,
+.line-17,
+.line-18,
+.line-19,
+.line-20,
+.line-21,
+.line-22,
+.line-23,
+.line-24,
+.line-25,
+.line-26,
+.line-27,
+.line-28,
+.line-29,
+.line-30,
+.line-31,
+.line-32,
+.line-33,
+.line-34,
+.line-35,
+.line-36,
+.line-37,
+.line-38,
+.line-39,
+.line-40,
+.line-41,
+.line-42,
+.line-43,
+.line-44,
+.line-45,
+.line-46,
+.line-47,
+.line-48,
+.line-49,
+.line-50 {
+	transition: 0.5s all;
+	width: var(--lineWidth) !important;
+	/* border-radius: var(--borderRadius); */
+}
+
+.line-1,
+.line-2,
+.line-3,
+.line-4,
+.line-5,
+.line-6,
+.line-7,
+.line-8,
+.line-9,
+.line-10,
+.line-11,
+.line-12,
+.line-13,
+.line-14,
+.line-15,
+.line-16,
+.line-17,
+.line-18,
+.line-19,
+.line-20,
+.line-21,
+.line-22,
+.line-23,
+.line-24,
+.line-25,
+.line-26,
+.line-27,
+.line-28,
+.line-29,
+.line-30,
+.line-31,
+.line-32,
+.line-33,
+.line-34,
+.line-35,
+.line-36,
+.line-37,
+.line-38,
+.line-39,
+.line-40,
+.line-41,
+.line-42,
+.line-43,
+.line-44,
+.line-45,
+.line-46,
+.line-47,
+.line-48,
+.line-49,
+.line-50 {
+	background-image: linear-gradient(
+		to bottom,
+		#6f0000,
+		#870705,
+		#9f1108,
+		#b91b08,
+		#d22607,
+		#e63536,
+		#f5495b,
+		#ff5f7e,
+		#ff8cba,
+		#f5b7e4,
+		#f1defa,
+		#ffffff,
+		#ffffff,
+		#f1defa,
+		#f5b7e4,
+		#ff8cba,
+		#ff5f7e,
+		#f5495b,
+		#e63536,
+		#d22607,
+		#b91b08,
+		#9f1108,
+		#870705,
+		#6f0000
+	);
+}
+
+/* .line-1,
+.line-2,
+.line-3,
+.line-4,
+.line-5,
+.line-6,
+.line-7 {
+	background: var(--orange);
+}
+
+.line-8,
+.line-9,
+.line-10,
+.line-11,
+.line-12,
+.line-13 {
+	background: var(--yellow);
+}
+
+.line-14,
+.line-15,
+.line-16,
+.line-17,
+.line-18,
+.line-19,
+.line-20 {
+	background: var(--green);
+}
+
+.line-21,
+.line-22,
+.line-23,
+.line-24,
+.line-25,
+.line-26,
+.line-27 {
+	background: var(--turquoise);
+}
+
+.line-28,
+.line-29,
+.line-30,
+.line-31,
+.line-32,
+.line-33,
+.line-34 {
+	background: var(--blue);
+}
+
+.line-35,
+.line-36,
+.line-37,
+.line-38,
+.line-39,
+.line-40,
+.line-41,
+.line-47,
+.line-48,
+.line-49,
+.line-50 {
+	background: var(--violet);
+} 
+
+.line-42,
+.line-43,
+.line-44,
+.line-45,
+.line-46 {
+	background: var(--pink);
+}*/
+
+.line-1 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 3%;
+}
+
+.line-2 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 4.5%;
+}
+
+.line-3 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 6%;
+}
+
+.line-4 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 7.5%;
+}
+
+.line-5 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 9%;
+}
+
+.line-6 {
+	height: calc(var(--lineHeight) + 5%);
+	top: calc(var(--lineTop) - 3%);
+	left: 10.5%;
+}
+
+.line-7 {
+	height: calc(var(--lineHeight) + 5%);
+	top: calc(var(--lineTop) - 3%);
+	left: 12%;
+}
+
+.line-8 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 13.5%;
+}
+
+.line-9 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 15%;
+}
+
+.line-10 {
+	height: calc(var(--lineHeight) + 5%);
+	top: calc(var(--lineTop) - 3%);
+	left: 16.5%;
+}
+
+.line-11 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 18%;
+}
+
+.line-12 {
+	height: calc(var(--lineHeight) + 9%);
+	top: calc(var(--lineTop) - 5%);
+	left: 19.5%;
+}
+
+.line-13 {
+	height: calc(var(--lineHeight) + 5%);
+	top: calc(var(--lineTop) - 3%);
+	left: 21%;
+}
+
+.line-14 {
+	height: calc(var(--lineHeight) + 9%);
+	top: calc(var(--lineTop) - 5%);
+	left: 22.5%;
+}
+
+.line-15 {
+	height: calc(var(--lineHeight) + 15%);
+	top: calc(var(--lineTop) - 8%);
+	left: 24%;
+}
+
+.line-16 {
+	height: calc(var(--lineHeight) + 35%);
+	top: calc(var(--lineTop) - 18%);
+	left: 25.5%;
+}
+
+.line-17 {
+	height: calc(var(--lineHeight) + 55%);
+	top: calc(var(--lineTop) - 28%);
+	left: 27%;
+}
+
+.line-18 {
+	height: calc(var(--lineHeight) + 75%);
+	top: calc(var(--lineTop) - 38%);
+	left: 28.5%;
+}
+
+.line-19 {
+	height: calc(var(--lineHeight) + 55%);
+	top: calc(var(--lineTop) - 28%);
+	left: 30%;
+}
+
+.line-20 {
+	height: calc(var(--lineHeight) + 35%);
+	top: calc(var(--lineTop) - 18%);
+	left: 31.5%;
+}
+
+.line-21 {
+	height: calc(var(--lineHeight) + 55%);
+	top: calc(var(--lineTop) - 28%);
+	left: 33%;
+}
+
+.line-22 {
+	height: calc(var(--lineHeight) + 9%);
+	top: calc(var(--lineTop) - 5%);
+	left: 34.5%;
+}
+
+.line-23 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 36%;
+}
+
+.line-24 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 37.5%;
+}
+
+.line-25 {
+	height: calc(var(--lineHeight) + 9%);
+	top: calc(var(--lineTop) - 5%);
+	left: 39%;
+}
+
+.line-26 {
+	height: calc(var(--lineHeight) + 15%);
+	top: calc(var(--lineTop) - 8%);
+	left: 40.5%;
+}
+
+.line-27 {
+	height: calc(var(--lineHeight) + 35%);
+	top: calc(var(--lineTop) - 18%);
+	left: 42%;
+}
+
+.line-28 {
+	height: calc(var(--lineHeight) + 55%);
+	top: calc(var(--lineTop) - 28%);
+	left: 43.5%;
+}
+
+.line-29 {
+	height: calc(var(--lineHeight) + 55%);
+	top: calc(var(--lineTop) - 28%);
+	left: 45%;
+}
+
+.line-30 {
+	height: calc(var(--lineHeight) + 35%);
+	top: calc(var(--lineTop) - 18%);
+	left: 46.5%;
+}
+
+.line-31 {
+	height: calc(var(--lineHeight) + 15%);
+	top: calc(var(--lineTop) - 8%);
+	left: 48%;
+}
+
+.line-32 {
+	height: calc(var(--lineHeight) + 9%);
+	top: calc(var(--lineTop) - 5%);
+	left: 49.5%;
+}
+
+.line-33 {
+	height: calc(var(--lineHeight) + 9%);
+	top: calc(var(--lineTop) - 5%);
+	left: 51%;
+}
+
+.line-34 {
+	height: calc(var(--lineHeight) + 5%);
+	top: calc(var(--lineTop) - 3%);
+	left: 52.5%;
+}
+
+.line-35 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 54%;
+}
+
+.line-36 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 55.5%;
+}
+
+.line-37 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 57%;
+}
+
+.line-38 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 58.5%;
+}
+
+.line-39 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 60%;
+}
+
+.line-40 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 61.5%;
+}
+
+.line-41 {
+	height: calc(var(--lineHeight) + 9%);
+	top: calc(var(--lineTop) - 5%);
+	left: 63%;
+}
+
+.line-42 {
+	height: calc(var(--lineHeight) + 9%);
+	top: calc(var(--lineTop) - 5%);
+	left: 64.5%;
+}
+
+.line-43 {
+	height: calc(var(--lineHeight) + 35%);
+	top: calc(var(--lineTop) - 18%);
+	left: 66%;
+}
+
+.line-44 {
+	height: calc(var(--lineHeight) + 75%);
+	top: calc(var(--lineTop) - 38%);
+	left: 67.5%;
+}
+
+.line-45 {
+	height: calc(var(--lineHeight) + 35%);
+	top: calc(var(--lineTop) - 18%);
+	left: 69%;
+}
+
+.line-46 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 70.5%;
+}
+
+.line-47 {
+	height: calc(var(--lineHeight) + 3%);
+	top: calc(var(--lineTop) - 2%);
+	left: 72%;
+}
+
+.line-48 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 73.5%;
+}
+
+.line-49 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 75%;
+}
+
+.line-50 {
+	height: var(--lineHeight);
+	top: var(--lineTop);
+	left: 76.5%;
+}

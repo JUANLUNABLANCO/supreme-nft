@@ -10,7 +10,7 @@
 	/* text-colors */
 	--text-black-color: #222;
 	--text-white-color: #fcfcfc;
-	--text-purpledark-color: #481f61;
+	--text-purpledark-color: #4b1c60;
 	--text-purplemiddle-color: #713497;
 	--text-purplelight-color: #923fc3;
 	--subtitle-color: #6a6a6a;
@@ -56,6 +56,15 @@
 	--zindex-over-all: 9999; /*9999;*/
 	--zindex-modal: 99999; /*99999;*/
 	--zindex-controls-over-all: 99999; /*99999;*/
+
+	/* ##################### box-music */
+	--red-hard: #191919;
+	--red-middle: #650000;
+	--red-light: #f53502;
+	--lineWidth: 20%;
+	--borderRadius: 5px;
+	--lineTop: 48%;
+	--lineHeight: 5%;
 }
 /* ********** Custom Properties ********** */
 /* **************************************************************************** */

@@ -1,15 +1,18 @@
 @import url('generic.css');
 @import url('utilities.css');
 
+@import url('./custom/_sections.css');
+@import url('./custom/_sitestyle.css');
+
 @import url('./custom/stars.css');
 @import url('./custom/tarot.css');
-@import url('./custom/sections.css');
 @import url('./custom/icons.css');
-@import url('./custom/sitestyle.css');
 @import url('./custom/neon.css');
 @import url('./custom/modal.css');
-@import url('./custom/clip.css');
-@import url('./custom/cardGif.css');
+@import url('./custom/video-clip.css');
+@import url('./custom/box-music.css');
+@import url('./custom/fx.css');
+@import url('./custom/cardReveal.css');
 /* ********** Components ***** */
 /* **************************************************************************** */
 /* centrar algo */
