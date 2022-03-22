@@ -30,12 +30,10 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" />
 
-		<!-- JS jquery for liquid button -->
+		<!-- JS jquery for tarot -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-		<!-- JS pdf viewer -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js"></script>
-		<!-- tarot -->
+		<!-- tarot animations with gsap -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/easing/EasePack.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js"></script>
@@ -59,17 +57,17 @@
 				</div>
 
 				<nav class="menu _borderyellow">
-					<a class="_borderblue lg-none" href="#videoPromotionModal" id="openModalVideo2">
+					<a class="_borderblue lg-none hi-icon" href="#videoPromotionModal" id="openModalVideo2">
 						<img class="icon-navbar" src="./assets/images/icons/rrss-play_button.png" />
 					</a>
-					<a class="_borderblue" href="https://www.instagram.com/supreme_nft_" target="_blank">
-						<img class="icon-navbar" src="./assets/images/icons/rrss-instagram.png" />
+					<a class="_bordered hi-icon" href="https://www.instagram.com/supreme_nft_" target="_blank">
+						<img class="icon-navbar" src="./assets/images/icons/rrss-instagram-highlighted.png" />
 					</a>
-					<a class="_borderblue" href="https://twitter.com/supreme_nft" target="_blank">
-						<img class="icon-navbar" src="./assets/images/icons/rrss-twitter.png" />
+					<a class="_borderblue hi-icon" href="https://twitter.com/supreme_nft" target="_blank">
+						<img class="icon-navbar" src="./assets/images/icons/rrss-twitter-highlighted.png" />
 					</a>
-					<a class="_borderblue" href="https://discord.io/supremeNFT" target="_blank">
-						<img class="icon-navbar" src="./assets/images/icons/rrss-discord.png" />
+					<a class="_borderblue hi-icon" href="https://discord.io/supremeNFT" target="_blank">
+						<img class="icon-navbar" src="./assets/images/icons/rrss-discord-highlighted.png" />
 					</a>
 				</nav>
 			</section>
@@ -83,88 +81,85 @@
 			</div>
 		</div> -->
 		<!-- ############## COVER STARS #################### -->
-		<main>
-			<div class="wrap-stars">
-				<div class="stars"></div>
-				<div class="twinkling">
-					<div class="clouds"></div>
+		<main class="start">
+			<div class="normalsrtar"></div>
+			<div id="star"></div>
+			<!-- ############## INIT ####################### -->
+			<section id="init" class="init full-md-screen full-lg-screen _bordergreen">
+				<div class="modal-portrait-wrapper">
+					<div class="modal-portrait"></div>
 				</div>
-				<!-- ############## INIT ####################### -->
-				<section id="init" class="init full-md-screen full-lg-screen _bordergreen">
-					<div class="modal-portrait-wrapper">
-						<div class="modal-portrait"></div>
-					</div>
-					<article class="jumbotron _borderblue">
-						<!-- ########## tarot cards ########## -->
-						<aside id="init-cards" class="jumbotron-content _bordered">
-							<div class="tarot-wrapper-card _bordergreen">
-								<!-- card first -->
-								<figure class="tarot-card shuffle">
-									<img src="./assets/images/tarot/tarot-diamond.png" />
-								</figure>
-								<!-- card second -->
-								<figure class="tarot-card">
-									<img src="./assets/images/tarot/tarot-platinum.png" />
-								</figure>
-								<!-- card third -->
-								<figure class="tarot-card">
-									<img src="./assets/images/tarot/tarot-gold.png" />
-								</figure>
-								<!-- card fourth -->
-								<figure class="tarot-card">
-									<img src="./assets/images/tarot/tarot_back.png" />
-								</figure>
-							</div>
-							<!--   <h1>Click to Shuffle</h1> -->
-						</aside>
-						<!-- ########## tarot cards ########## -->
-						<!-- ########## card-text ############ -->
-						<aside id="init-text" class="jumbotron-content _bordered">
-							<div class="jumbotron-card _borderorange">
-								<div class="jumbotron-title _borderblue">
-									<div class="wrap _bordered">
-										<h1 class="h1card _bordergreen">
-											<span class="neon-off post-neon-off" style="--hero-text-color: var(--text-purplelight-color)"
-												>NFT</span
-											>
-											<span class="text-light" style="--hero-text-color: var(--text-white-color)">
-												EXTRAORDINAIRE
-											</span>
-										</h1>
-										<h2 class="h2card">
-											<span class="text-ligth" style="--hero-text-color: var(--text-white-color)">
-												QUE VOUS ALLEZ ADORER
-											</span>
-										</h2>
-									</div>
-								</div>
-								<h2 class="jumbotron-subtitle">
-									Supreme NFT est une collection de 55550 Cartes uniques des rapeurs français qui donnent accès à des
-									nombreux avantages. 1 nft acheté = 1 place de concert offerte et beaucoup plus.
-									<br />
-									Pour en savoir plus rejoins le discord.
-								</h2>
-
-								<div class="jumbotron-card-footer">
-									<button class="btn-bro">
-										<a href="https://discord.io/supremeNFT" class="inner pixelart" title="go to discord" target="_blank"
-											>REJOINS LE DISCORD</a
+				<article class="jumbotron _borderblue">
+					<!-- ########## tarot cards ########## -->
+					<aside id="init-cards" class="jumbotron-content _bordered">
+						<div class="tarot-wrapper-card _bordergreen">
+							<!-- card first -->
+							<figure class="tarot-card shuffle">
+								<img src="./assets/images/tarot/tarot-diamond.png" />
+							</figure>
+							<!-- card second -->
+							<figure class="tarot-card">
+								<img src="./assets/images/tarot/tarot-platinum.png" />
+							</figure>
+							<!-- card third -->
+							<figure class="tarot-card">
+								<img src="./assets/images/tarot/tarot-gold.png" />
+							</figure>
+							<!-- card fourth -->
+							<figure class="tarot-card">
+								<img src="./assets/images/tarot/tarot_back.png" />
+							</figure>
+						</div>
+						<!--   <h1>Click to Shuffle</h1> -->
+					</aside>
+					<!-- ########## tarot cards ########## -->
+					<!-- ########## card-text ############ -->
+					<aside id="init-text" class="jumbotron-content _bordered">
+						<div class="jumbotron-card _borderorange">
+							<div class="jumbotron-title _borderblue">
+								<div class="wrap _bordered">
+									<h1 class="h1card _bordergreen">
+										<span class="neon-off post-neon-off" style="--hero-text-color: var(--text-purplelight-color)"
+											>NFT</span
 										>
-									</button>
+										<span class="text-light" style="--hero-text-color: var(--text-white-color)"> EXTRAORDINAIRE </span>
+									</h1>
+									<h2 class="h2card">
+										<span class="text-ligth" style="--hero-text-color: var(--text-white-color)">
+											QUE VOUS ALLEZ ADORER
+										</span>
+									</h2>
 								</div>
 							</div>
-						</aside>
-						<!-- ########## card-text ############ -->
-					</article>
-				</section>
-				<!-- ############## INIT ####################### -->
-			</div>
+							<h2 class="jumbotron-subtitle">
+								Supreme NFT est une collection de 55550 Cartes uniques des rapeurs français qui donnent accès à des
+								nombreux avantages. 1 nft acheté = 1 place de concert offerte et beaucoup plus.
+								<br />
+								Pour en savoir plus rejoins le discord.
+							</h2>
+
+							<div class="jumbotron-card-footer">
+								<button class="btn-bro">
+									<a href="https://discord.io/supremeNFT" class="inner pixelart" title="go to discord" target="_blank"
+										>REJOINS LE DISCORD</a
+									>
+								</button>
+							</div>
+						</div>
+					</aside>
+					<!-- ########## card-text ############ -->
+				</article>
+			</section>
+			<!-- ############## INIT ####################### -->
+
 			<!-- #################### ABOUT #################### -->
 			<section class="about full-lg-screen zindex-overall _bordered">
 				<div class="about-row1">
 					<article class="nft-character _borderyellow">
 						<figure class="character-gif">
-							<img src="/assets/images/character-gif/character-text-mobile.png" />
+							<img src="/assets/images/character-gif/character-text.png" class="lg-none" />
+
+							<img src="/assets/images/character-gif/characters.gif" class="small-none gif-little" />
 						</figure>
 					</article>
 					<article class="nft-explaining _borderorange">
@@ -244,6 +239,8 @@
 					</div> -->
 			<!-- ##### sceneGif -->
 			<!-- ####################### ROAD MAP ############## -->
+
+			<!-- .normalstart -->
 		</main>
 
 		<!-- ############## MAIN  ########################## -->
@@ -254,7 +251,7 @@
 			<article id="posterVideo" class="poster-video _borderyellow">
 				<figure id="clipVideo" class="zindex-overall clip flash light _bordergreen">
 					<a href="#videoPromotionModal" id="openModalVideo" class="inner" title="view white paper">
-						<img class="" src="/assets/images/icons/play_button.png" alt="video play button" />
+						<img class="" src="/assets/images/icons/rrss-play_button.png" alt="video play button" />
 					</a>
 				</figure>
 			</article>
@@ -284,7 +281,7 @@
 		</section>
 		<!-- #################### VIDEO #################### -->
 		<!-- #################### FOOETR ################### -->
-		<section class="after-footer"></section>
+		<!-- <section class="after-footer"></section> -->
 
 		<!-- ############################ scripts -->
 		<script src="./assets/js/tarot.js"></script>

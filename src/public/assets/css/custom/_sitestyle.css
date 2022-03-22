@@ -82,7 +82,7 @@
 	align-items: stretch;
 
 	/* var(--second-color); */
-	background-color: black;
+	background-color: transparent;
 	/* background: radial-gradient(ellipse at bottom, #111111 0%, rgba(44, 10, 30, 0.75) 80%, #141214 100%); */
 }
 .container {
