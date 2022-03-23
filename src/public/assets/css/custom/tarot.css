@@ -30,6 +30,9 @@
 	overflow-x: visible !important;
 	overflow-y: visible !important;
 }
+.tarot-card img {
+	width: 100%;
+}
 
 .tarot-card:nth-child(1) {
 	transform: rotate(-3deg);
@@ -55,53 +58,15 @@
 	z-index: var(--zindex-card-bottom);
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 700px) {
 	.tarot-card {
-		width: 250px;
+		width: 300px;
 		height: 375px;
 	}
 }
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 1400px) {
 	.tarot-card {
-		width: 300px;
-		height: 400px;
+		width: 375px !important;
+		height: 550px !important;
 	}
 }
-/* @media screen and (min-width: 1024px) {
-	.tarot-card {
-		width: 340px;
-		height: 460px;
-	}
-} */
-@media screen and (min-width: 1700px) {
-	.tarot-card {
-		width: 375px;
-		height: 550px;
-	}
-}
-
-/* 
-@media screen and (min-width: 300px) {
-	.tarot-card {
-		top: 200px;
-		left: 5vw;
-		right: 5vw;
-	}
-}*/
-
-/* @media screen and (min-width: 1000px) {
-	.tarot-card {
-		left: 10vw;
-		right: 80vw;
-		top: 300px;
-	}
-} */
-
-/*@media screen and (min-width: 1400px) {
-	.tarot-card {
-		left: 15vw;
-		
-		top: 250px !important;
-		
-	}
-} */

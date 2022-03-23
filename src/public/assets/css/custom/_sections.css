@@ -63,10 +63,10 @@ h2.h2card {
 	background-color: transparent;
 }
 /* .jumbotron-content:nth-child(1) */
-#init-cards {
+#init-tarot {
 	z-index: 750;
 	position: relative;
-	top: 270px;
+	top: 310px;
 }
 /* .jumbotron-content:nth-child(2) */
 #init-text {
@@ -76,9 +76,10 @@ h2.h2card {
 /* mobile changes*/
 .jumbotron-card {
 	height: 400px;
+	max-width: 750px;
 	padding-left: 5vw;
 	padding-right: 5vw;
-	padding-top: 5vw;
+	padding-top: 1vw;
 
 	display: flex;
 	flex-direction: column;
@@ -90,30 +91,29 @@ h2.h2card {
 /* xs to ss 300px to 820px**/
 @media screen and (min-width: 300px) {
 	/* .jumbotron-content:nth-child(1)  */
-	#init-cards {
+	#init-tarot {
 		top: 290px;
 	}
 }
 @media screen and (min-width: 360px) {
 	/* .jumbotron-content:nth-child(1)  */
-	#init-cards {
+	#init-tarot {
 		top: 350px;
 	}
 }
 @media screen and (min-width: 450px) {
 	/* .jumbotron-content:nth-child(1)  */
-	#init-cards {
+	#init-tarot {
 		top: 420px;
 	}
 }
-
 @media screen and (min-width: 524px) {
-	#init-cards {
+	#init-tarot {
 		top: 470px;
 	}
 }
 @media screen and (min-width: 630px) {
-	#init-cards {
+	#init-tarot {
 		top: 510px;
 	}
 }
@@ -127,7 +127,12 @@ h2.h2card {
 	.jumbotron-subtitle {
 		font-size: 1.3rem;
 	}
-	#init-cards {
+	.jumbotron-card {
+		padding-top: 1vh;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+	#init-tarot {
 		top: 390px;
 	}
 }
@@ -145,13 +150,12 @@ h2.h2card {
 	}
 	#init-text {
 		height: 50vh;
-		padding-top: 5vh;
+		padding-top: 1vh;
 	}
-	#init-cards {
-		top: 440px;
+	#init-tarot {
+		top: 400px;
 	}
 }
-
 @media screen and (min-width: 1400px) {
 	h1.h1card {
 		font-size: 3rem;
@@ -177,7 +181,7 @@ h2.h2card {
 	}
 
 	.jumbotron-card {
-		max-width: 500px;
+		max-width: 700px;
 		padding-left: 0;
 		padding-right: 0;
 		padding-top: 0;
@@ -191,15 +195,15 @@ h2.h2card {
 		align-items: center;
 	}
 	.jumbotron-content {
-		height: 90vh;
+		height: 75vh;
 	}
-	#init-cards {
+	#init-tarot {
 		left: 380px;
 		top: 150px;
 	}
 	#init-text {
 		padding-top: 100px;
-		grid-column: 6 / 11;
+		grid-column: 7 / 11;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -207,17 +211,16 @@ h2.h2card {
 		z-index: var(--zindex-texts-jumbotron);
 	}
 }
-
 @media screen and (min-width: 1700px) {
 	.jumbotron-content {
-		height: 100vh;
+		height: 85vh;
 	}
-	#init-cards {
+	#init-tarot {
 		left: 450px;
 		top: 200px;
 	}
 	#init-text {
-		grid-column: 6 / 10;
+		grid-column: 7 / 11;
 	}
 }
 
