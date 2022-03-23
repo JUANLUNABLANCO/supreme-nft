@@ -49,6 +49,7 @@
 	--zindex-back: -99;
 	--zindex-normal: 0;
 	--zindex-icons: 99;
+	--zindex-texts-jumbotron: 400;
 	--zindex-card-top: 700;
 	--zindex-card-normal: 600;
 	--zindex-card-bottom: 500;
