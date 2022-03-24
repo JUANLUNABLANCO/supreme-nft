@@ -54,3 +54,10 @@
 		-o-transform: rotate(-7deg);
 	}
 }
+
+/* granulado ########### */
+.granulated {
+	background: radial-gradient(#6f2d9c, #391353);
+	background-size: 4px 4px;
+	perspective: 400px;
+}
