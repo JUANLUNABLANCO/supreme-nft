@@ -247,7 +247,7 @@ video {
 		padding-right: 50px;
 	}
 }
-/* ABOUT MOBILE ######## **/
+/* ABOUT character-gif ######## **/
 section.about {
 	width: 100%;
 	height: 100%;
@@ -281,10 +281,125 @@ section.about {
 		align-items: center;
 	}
 }
+/* ABOUT character-gif ######## **/
+/* ABOUT art-work ######## **/
+.workart {
+	color: var(--text-white-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+}
+.workart .wa-title h2,
+.workart .wa-title h3 {
+	text-align: center;
+	font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.workart .wa-title h2 {
+	font-size: 2.3rem;
+}
+.workart .wa-section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 1200px;
+}
+.workart .wa-section1-right {
+	order: 1;
+}
+.workart .wa-section1-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	row-gap: 15px;
 
+	background-color: #111011;
+	border: 2px solid #595959 !important;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	-ms-border-radius: 24px;
+	-o-border-radius: 24px;
+	padding: 2rem;
+	order: 3;
+	position: relative;
+	top: -50px;
+}
+.workart .wa-section1-bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	order: 2;
+	position: relative;
+	top: -50px;
+}
+@media screen and (min-width: 1024px) {
+	.workart .wa-title h2 {
+		font-size: 4rem;
+	}
+	.workart .wa-title h3 {
+		font-size: 2rem;
+	}
+	.workart .wa-section1 {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		column-gap: 100px;
+		flex-wrap: wrap;
+	}
+	.workart .wa-section1-left {
+		width: 40% !important;
+		order: 1;
+		/* border: 1px solid red !important; */
+	}
+	.workart .wa-section1-left img {
+		width: 100%;
+	}
+	.workart .wa-section1-right {
+		width: 50% !important;
+		order: 2;
+		top: 0;
+	}
+	.workart .wa-section1-bottom {
+		order: 3;
+		width: 700px;
+	}
+	.workart .wa-section1-bottom img {
+		width: 100%;
+	}
+}
+/* ABOUT artwork ######## **/
 /* AFTER-FOOTER ############ */
 .after-footer {
 	width: 100%;
-	height: 80px;
+	height: calc(160px + 6vh);
 	/* border: 1px solid red; */
+}
+.tape {
+	font-size: 3em;
+	margin: 3% 0 0;
+	height: 160px;
+	background-image: -webkit-linear-gradient(0deg, #222, transparent, #222),
+		linear-gradient(transparent 30px, #292d3e 30px),
+		repeating-linear-gradient(45deg, transparent, transparent 35px, #292d3e 35px, #292d3e 70px);
+	background-image: -moz-linear-gradient(90deg, #222, transparent, #222),
+		linear-gradient(transparent 30px, #292d3e 30px),
+		repeating-linear-gradient(45deg, transparent, transparent 35px, #292d3e 35px, #292d3e 70px);
+	background-image: -o-linear-gradient(90deg, #222, transparent, #222), linear-gradient(transparent 30px, #292d3e 30px),
+		repeating-linear-gradient(45deg, transparent, transparent 35px, #292d3e 35px, #292d3e 70px);
+	background-image: linear-gradient(90deg, #222, transparent, #222), linear-gradient(transparent 30px, #292d3e 30px),
+		repeating-linear-gradient(45deg, transparent, transparent 35px, #292d3e 35px, #292d3e 70px);
+	background-size: auto, auto 132px, auto;
+}
+.tape span {
+	cursor: default;
+	color: rgb(100, 100, 100);
+	display: block;
+	text-align: center;
+	padding: 1em;
+	white-space: nowrap;
 }
