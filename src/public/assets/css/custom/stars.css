@@ -1,7 +1,7 @@
 .start {
 	width: 100%;
 	height: calc(100% + 0px);
-	/* position: relative; */
+	/* position: fixed; */
 	overflow: hidden !important;
 	background: radial-gradient(ellipse at center bottom, #1b2735 0%, #090a0f 100%);
 }

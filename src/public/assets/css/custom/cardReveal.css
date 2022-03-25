@@ -1,8 +1,8 @@
 .sceneGif {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
-	perspective: 800px;
+	justify-content: center;
+	perspective: 1200px;
 }
 .sceneGif .cardGif {
 	position: relative;
