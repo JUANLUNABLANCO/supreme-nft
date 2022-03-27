@@ -318,6 +318,9 @@ Main components
 		right: 123.5%;
 		text-align: right;
 	}
+	#rocket {
+		max-width: 350px;
+	}
 }
 /* ### ANIMS ###  */
 #ticket:hover {
