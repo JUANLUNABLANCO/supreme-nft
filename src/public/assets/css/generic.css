@@ -38,6 +38,9 @@
 	--rm-ring-bckgrnd: #673ab7;
 	--rm-line-vertical: whitesmoke;
 	--rm-shadow-inset: 3px 3px 4px black inset;
+	/* howtoget colors*/
+	--htg-background: rgba(21, 26, 33, 0.8);
+	--htg-contentbox: #333c42;
 
 	/* avatar colors */
 	--barbarian-color: #953ec3;

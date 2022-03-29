@@ -274,6 +274,10 @@ a.link-disabled {
 	filter: drop-shadow(1);
 	-webkit-filter: drop-shadow(1);
 }
+.filter-disabled {
+	filter: invert(30%);
+	-webkit-filter: invert(30%);
+}
 /* ******** heading */
 .heading {
 	max-width: 800px;
@@ -300,6 +304,10 @@ a.link-disabled {
 .none {
 	display: none !important;
 }
+.not-active {
+	pointer-events: none;
+	cursor: default;
+}
 .heading-title-fig {
 	display: flex;
 	flex-direction: row;
@@ -316,6 +324,11 @@ a.link-disabled {
 	.full-md-screen {
 		width: 100%;
 		min-height: 100vh;
+	}
+}
+@media screen and (max-width: 1170px) {
+	.middle-none {
+		display: none !important;
 	}
 }
 @media screen and (min-width: 1024px) {
