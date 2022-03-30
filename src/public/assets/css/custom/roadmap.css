@@ -21,7 +21,13 @@
 } */
 
 /* cd-timeline ################  */
-
+.rm-title {
+	color: var(--text-white-color);
+	padding: 50px;
+}
+.rm-title h2 {
+	font-size: 2rem;
+}
 .cd-container {
 	width: 90%;
 	max-width: var(--rm-max-width);
@@ -61,6 +67,12 @@ Main components
 }
 
 @media only screen and (min-width: 1170px) {
+	.rm-title {
+		text-align: center;
+	}
+	.rm-title h2 {
+		font-size: 3rem;
+	}
 	#cd-timeline {
 		margin-top: 0;
 		/* margin-bottom: 3em; */

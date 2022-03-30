@@ -112,6 +112,11 @@
 		visibility: hidden;
 	}
 }
+@media screen and (min-width: 1024px) {
+	.modal-close {
+		right: 2rem;
+	}
+}
 
 @keyframes disappear {
 	0% {

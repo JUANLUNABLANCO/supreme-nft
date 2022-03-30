@@ -19,6 +19,7 @@
 	--footer-link-color: #5f637a;
 	--reverse-link-color: #311440;
 	--title-color: #333;
+	--title-text-color: #fab266;
 	/* other colors */
 	--white-color: #fff;
 	--gray-light-color: #f3f3f3;
@@ -32,7 +33,7 @@
 	/* roadmap colors */
 	--rm-max-width: 1320px;
 	--rm-background: rgba(17, 16, 17, 0.5);
-	--rm-contentbox: #333c42;
+	--rm-contentbox: rgba(72, 81, 114, 0.5);
 	--rm-subtitlebox: rgba(255, 255, 255, 0.7);
 	--rm-footerbox: #40484d;
 	--rm-ring-bckgrnd: #673ab7;
@@ -79,6 +80,15 @@
 	--borderRadius: 5px;
 	--lineTop: 48%;
 	--lineHeight: 5%;
+	/* ####################### footer  */
+	--footer-bg: #1c2444;
+	--color: #f2f3fb;
+	--color-smooth: #9da2ae;
+	--input-border: #ffffff;
+	--input-bg: rgba(72, 81, 114, 0.5);
+	--btn-bg-color: #f1f2fc;
+	--btn-hover-bg: #d5d9f6;
+	--btn-color: #1e2641;
 }
 /* ********** Custom Properties ********** */
 /* **************************************************************************** */
