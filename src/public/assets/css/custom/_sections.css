@@ -775,7 +775,9 @@ section.about {
 /* .carousel .slides {
 	width: 200px;
 } */
-
+.carousel li.slide img.avatar {
+	border: 0.06em solid var(--input-border) !important;
+}
 #testimonios h2.section-title {
 	color: var(--title-text-color);
 }
@@ -784,9 +786,12 @@ section.about {
 	max-width: 100%;
 	padding: 0 50px;
 }
-.carousel .slides blockquote,
+.carousel .slides blockquote {
+	color: var(--blockquote-color);
+}
 .carousel .slides h6 {
-	color: var(--text-white-color);
+	color: var(--slidefooter-color);
+	font-size: 0.8rem;
 }
 
 .carousel input {
