@@ -46,6 +46,13 @@ Host bitbucket.org
 > cat ~/.ssh/id_rsa.pub
 
 // En bitbucket añade una nueva klave pública y en el formulario rellena con el 'paste', dale un nombre, en este caso:
+
+// BECAREFULLY el sitio exacto donde añadir la klave es esta:
+https://bitbucket.org/account/settings/ssh-keys/   es un sitio genérico
+que es a nivel generico si lo haces en un repositorio, solo tendrás acceso de lectura, a él
+
+
+
 SSHKEY_WSL2_BITBUCKET
 
 // comprobemos que hay conexion con esa máquina de bitbucket y establezcamos la conexión
@@ -63,6 +70,41 @@ origin  git@bitbucket.org:nftsupreme/nftsupreme_onlyweb.git (push)
 > git config --local user.email "gotth3way.apis@gmail.com"
 > git config --local user.name "JuanLuna" // estos son los datos para el repo en bitbucket
 
+### BECAREFULLY !!!
+He creado las klaves  ssh en windows, pero cuando te pide la carpeta en la que está montado WSL2, le he dado la 
+carpeta del ssh del WSL2, ¿Cómo?
+
+abres wsl2, te diriges a ~/.ssh/ y tecleas 
+
+> explorer.exe .
+
+se abrirá la carpeta de windows10 que contiene el .ssh --> RED\wsl$\ .... 
+
+y cuando hagas ssh-keygen en windows le pasas esa ruta para que las cree en su sitio
+
+### NO FUNCIONABA
+remote.origin.url=git@bitbucket.org:nftsupreme/nftsupreme_onlyweb.git
+
+xq la ssh key de bitbucket debe estar en el profile genérico, no en el repo
+
+
+# DCOKER CONFIGURATION
+## PASO 1
+crear el Dockerfile
+## PASO 2
+crear el .dockerignore
+
+## PASO 3 
+crear la imagen
+
+> docker build -t supremapp:v1.0.0  // crea la imagen llamada supremeapp:v1.0.0 -t --> tagname
+
+> docker image ls   // muestra todas las que hay
+
+## PASO 4
+ejecuta la imagen
+
+> docker run --rm --name supremeapp_cont1 -p 5000:5000 supremeapp:v1.0.0   // ahora correrá en el puerto 5000 de nuestra máquina una app que está corriendo en el puerto 5000 de docker respectivamente
 
 
 
