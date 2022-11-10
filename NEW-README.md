@@ -24,6 +24,8 @@ adding .env in .gitignore
 ## step 1 
 go to wsl2 terminal, para que al generar la ssh key en ese terminal y sistema de ficheros se quede vinculado a esa máquina virtual, si desactivas wsl2 o lo reconfiguras perderás el usuario y posiblemente la clave _idrsa
 
+
+
 ## algunos comandos
 Veamos si ssh está instalado
 > ssh -v 
@@ -39,6 +41,7 @@ Host bitbucket.org
 
 // reiniciar git bash en este punto
 // copia la clave publica en el portapapeles para pasarselo a bitbucket
+
 
 > cat ~/.ssh/id_rsa.pub
 
