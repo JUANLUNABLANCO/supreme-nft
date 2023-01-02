@@ -5,9 +5,8 @@
 
 # business
 
-MY-README.md
-NEW-README.md
-DOCKER.INFO.md
+README*.md
+
 # Node artifact files
 node_modules/
 dist/
