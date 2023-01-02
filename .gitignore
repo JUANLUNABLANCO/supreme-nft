@@ -5,7 +5,7 @@
 
 # business
 
-README*.md
+README.env.*.md
 
 # Node artifact files
 node_modules/
